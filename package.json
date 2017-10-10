@@ -1,0 +1,20 @@
+{
+  "name": "novo-rumo-template",
+  "version": "1.0.0",
+  "description": "Estrutura do template visual para o associação Novo Rumo.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conkerhell/novo-rumo-template.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conkerhell/novo-rumo-template/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.14.0"
+  }
+}

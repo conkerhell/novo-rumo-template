@@ -6,7 +6,9 @@ Estrutura do template visual para o associação Novo Rumo.
 Execute os passos para facilitar o processo de desenvolvimento
 
 * Instale as dependências de desenvolvimento executando o comando abaixo:
+<br>
 `NPM I`
 
 * Escuta suas alterações sem precisar refrescar a tela executando o comando abaixo:
+<br>
 `GULP SYNC`

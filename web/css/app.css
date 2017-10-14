@@ -6,7 +6,7 @@
 }
 
 .hero-full-screen {
-    height: 100vh;
+    height: 80vh;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -69,3 +69,26 @@
   }
   
 /* FIM HEADER  */
+
+/* INÍCIO FOOTER */
+
+.footer {
+    padding: 1rem 0;
+    align-items: center;
+    color:#fefefe;
+}
+
+.footer a {
+  color:#fefefe;
+  font-weight: bold;
+}
+
+.footer-info {
+    background-color: #74474F;
+}
+
+.footer-details {
+  background-color: #C15666;
+}
+
+/* FIM FOOTER */

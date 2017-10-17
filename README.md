@@ -7,8 +7,12 @@ Execute os passos para facilitar o processo de desenvolvimento
 
 * Instale as dependências de desenvolvimento executando o comando abaixo:
 <br>
-`NPM I`
+`npm i`
+
+* Instale o gulp no global 
+<br>
+`npm i -g gulp`
 
 * Escuta suas alterações sem precisar refrescar a tela executando o comando abaixo:
 <br>
-`GULP SYNC`
+`gulp sync`

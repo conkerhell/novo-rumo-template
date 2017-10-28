@@ -91,4 +91,8 @@
   background-color: #C15666;
 }
 
+.footer .info p {
+  margin-bottom: 0;
+}
+
 /* FIM FOOTER */

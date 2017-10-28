@@ -1,13 +1,13 @@
-.menu a{
+.hero-full-screen .top-bar .menu a{
     -webkit-transition:	all 2s linear;
 	-moz-transition: all 2s linear;
 	-o-transition: all 2s linear;
     transition: all 2s linear;
-   
+   color:rgb(255, 255, 255)
 	
 }
 
-.menu a:hover{
+.hero-full-screen .top-bar .menu a:hover{
 
     color: #fff;
     

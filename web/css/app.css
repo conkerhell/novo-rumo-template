@@ -68,11 +68,16 @@
     font-weight: bold;
   }
   
+  
 /* FIM HEADER  */
 
 /*ESTILO DO TEXTO - DO SITE*/
 body{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Sura', serif;
+}
+
+.titulo-principal{
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .quem-somos{

@@ -72,7 +72,11 @@
 /* FIM HEADER  */
 
 /*ESTILO DO TEXTO - DO SITE*/
-body{
+.topicos{
+  font-family: 'Sura', serif;
+}
+
+p{
   font-family: 'Sura', serif;
 }
 

@@ -82,11 +82,19 @@
 
 /* GRID DE PRODUTO */
 
+.daily-grid h1,
 .product-grid h1 {
   font-size: 1.07em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis
+}
+
+.daily-grid figure,
+.product-grid figure {
+  max-width: 100%;
+  margin: 0 auto .5rem;
+  position: relative
 }
 
 .value {
@@ -103,12 +111,6 @@
     padding: 1rem 0;
     align-items: center;
     color:#fefefe;
-}
-
-.product-image {
-  max-width: 100%;
-  margin: 0 auto .5rem;
-  position: relative
 }
 
 .footer a {

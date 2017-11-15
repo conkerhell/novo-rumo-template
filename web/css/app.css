@@ -1,7 +1,7 @@
 /* ESTILO GERAL */
-* {
-  font-family: "Sura", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-}
+ * {
+
+ }
 
 /* INICIO HEADER */
 
@@ -80,12 +80,35 @@
   
 /* FIM HEADER  */
 
+/* GRID DE PRODUTO */
+
+.product-grid h1 {
+  font-size: 1.07em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.value {
+  display: block;
+  height: 34px;
+  font-size: 1.4em;
+  color: #24292d;
+  font-weight: 700
+}
+
 /* INÍCIO FOOTER */
 
 .footer {
     padding: 1rem 0;
     align-items: center;
     color:#fefefe;
+}
+
+.product-image {
+  max-width: 100%;
+  margin: 0 auto .5rem;
+  position: relative
 }
 
 .footer a {

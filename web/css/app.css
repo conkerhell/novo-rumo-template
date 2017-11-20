@@ -109,7 +109,7 @@
 
 .btn{
   display: inline-block;
-
+  
   margin: 0 0 10rem;
   padding: .85em 1em;
   line-height: 1;
@@ -118,6 +118,89 @@
 }
 
 /* FIM BUTTON */
+
+/* INICIO FORMULARIO */
+
+.nome{
+  margin-left: 1.5rem;
+}
+
+.email{
+  margin-left: 1.5rem;
+}
+
+.assunto{
+  margin-left: 1.5rem;
+}
+
+.mensagem{
+  margin-left: 1.5rem;
+}
+.form-nome  {
+  
+  width: 55%;
+  height: 40px;  
+  background-color: #f3d5cdb6;
+  border: 2px solid #a1a1a1;;
+  border-radius: 25px;
+  padding: 0 10px;
+  color: rgb(2, 2, 2);
+  
+}
+
+
+.form-email  {
+  
+  width: 55%;
+  height: 40px;    
+  background-color: #f3d5cdb6;
+  border: 2px solid #a1a1a1;;
+  border-radius: 25px;
+  padding: 0 10px;
+  color: rgb(2, 2, 2);
+  
+}
+
+
+.form-assunto  {
+  
+  width: 55%;
+  height: 40px;    
+  background-color: #f3d5cdb6;
+  border: 2px solid #a1a1a1;;
+  border-radius: 25px;
+  padding: 0 10px;
+  color: rgb(2, 2, 2);
+  
+}
+
+.form-assumensagem  {
+  
+  width: 55%;
+  height: 40px;    
+  background-color: #f3d5cdb6;
+  border: 2px solid #a1a1a1;
+  border-radius: 25px;
+  padding: 0 10px;
+  color: rgb(2, 2, 2);
+  
+}
+
+.form-mensagem {
+  max-width: 55%;
+  background-color: #ecebe9;
+  color: #777;
+  border: 2px solid #a1a1a1;
+  border-radius: 15px;
+  padding: 5px;
+ 
+}
+
+.button.primary{
+  background-color: rgb(148, 83, 83); 
+  
+}
+/* FIM DO FORMULARIO */
 
 /* INÍCIO FOOTER */
 

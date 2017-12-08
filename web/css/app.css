@@ -138,10 +138,11 @@ margin-bottom: 80px;
 
 
 
-/* INICIO FORMULARIO */
+/* INICIO FORMULARIO CONTATO */
 
 .nome{
   margin-left: 1.5rem;
+  margin-top: 4rem;
 }
 
 .email{
@@ -221,10 +222,12 @@ margin-bottom: 80px;
 }
 
 .button.primary{
-  background-color: rgb(148, 83, 83); 
+  background-color: rgb(148, 83, 83);
+  margin-bottom: 4rem; 
   
 }
-/* FIM DO FORMULARIO */
+
+/* FIM DO FORMULARIO CONTATO*/
 
 
 
@@ -235,10 +238,10 @@ margin-bottom: 80px;
   margin-left: 2rem;
   margin-bottom: 5rem;
   box-sizing: border-box;
-  border-top: 5px dashed rgb(172, 54, 71);
-  border-left: 5px dashed  rgb(172, 54, 71);
-  border-right: 5px dashed  rgb(172, 54, 71);
-  border-bottom: 5px dashed  rgb(172, 54, 71);
+  border-top: 4px dashed rgb(172, 54, 71);
+  border-left: 4px dashed  rgb(172, 54, 71);
+  border-right: 4px dashed  rgb(172, 54, 71);
+  border-bottom: 4px dashed  rgb(172, 54, 71);
   color: #704825;
 
 }
@@ -249,6 +252,16 @@ margin-bottom: 80px;
 }
 /* FIM QUEM SOMOS NOS */
 
+/* INÍCIO DOACAO */
+
+.doacao{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  width: 50%;
+  margin-left: 25rem;
+}
+
+/* FIM DOACAO */
 
 /* INÍCIO FOOTER */
 

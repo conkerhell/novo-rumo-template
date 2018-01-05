@@ -6,9 +6,9 @@ Estrutura do template visual para o associação Novo Rumo.
 Execute os passos para facilitar o processo de desenvolvimento
 
 - Instale as dependências de desenvolvimento executando o comando abaixo:
-```
+   ```
 npm i
-```
+   ```
 
  - Instale o gulp no global 
 ```

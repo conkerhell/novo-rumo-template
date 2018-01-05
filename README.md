@@ -1,7 +1,8 @@
 # novo-rumo-template
+
 Estrutura do template visual para o associação Novo Rumo. 
 
-### Dicas de desenvolvimento
+### Como executar a aplicação
 
 Execute os passos para facilitar o processo de desenvolvimento
 
@@ -11,10 +12,11 @@ Execute os passos para facilitar o processo de desenvolvimento
    ```
 
  - Instale o gulp no global 
-```
-npm i -g gulp
-```
+   ```
+   npm i -g gulp
+   ```
+   
  - Escuta suas alterações sem precisar refrescar a tela executando o comando abaixo:
-```
-gulp sync
-```
+   ```
+   gulp sync
+   ```

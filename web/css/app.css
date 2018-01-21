@@ -136,106 +136,11 @@ margin-bottom: 80px;
     }
 /* FIM NOTICIA */
 
-
-
 /* INICIO FORMULARIO CONTATO */
 
-.nome{
-  margin-left: 1.5rem;
-  margin-top: 4rem;
-}
-
-.email{
-  margin-left: 1.5rem;
-}
-
-.assunto{
-  margin-left: 1.5rem;
-}
-
-.mensagem{
-  margin-left: 1.5rem;
-}
-.form-nome  {
-  
-  width: 55%;
-  height: 40px;  
-  background-color: #fefefe;
-  border: 1px solid #cacaca;
-  border-radius: 0;
-  box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
-  padding: 0 10px;
-  color: rgb(2, 2, 2);
-  
-}
 
 
-.form-email  {
-  
-  width: 55%;
-  height: 40px;  
-  background-color: #fefefe;
-  border: 1px solid #cacaca;
-  border-radius: 0;
-  box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
-  padding: 0 10px;
-  color: rgb(2, 2, 2);
-  
-}
-
-
-.form-assunto  {
-  
-  width: 55%;
-  height: 40px;  
-  background-color: #fefefe;
-  border: 1px solid #cacaca;
-  border-radius: 0;
-  box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
-  padding: 0 10px;
-  color: rgb(2, 2, 2);
-  
-}
-
-.form-assumensagem  {
-  
-  width: 55%;
-  height: 40px;  
-  background-color: #fefefe;
-  border: 1px solid #cacaca;
-  border-radius: 0;
-  box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
-  padding: 0 10px;
-  color: rgb(2, 2, 2);
-}
-
-.form-mensagem {
-  width: 55%;
-  height: 40px;  
-  background-color: #fefefe;
-  border: 1px solid #cacaca;
-  border-radius: 0;
-  box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
-  padding: 0 10px;
-  color: rgb(2, 2, 2);
- 
-}
-
-.button.primary{
-  background-color: rgb(148, 83, 83);
-  margin-bottom: 4rem; 
-  
-}
-
-.mapa{
-
-  margin: 7rem;
-
-}
 /* FIM DO FORMULARIO CONTATO*/
-
-
-
 
 /* INÍCIO QUEM SOMOS NOS */
 .descricao{

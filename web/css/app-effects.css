@@ -9,20 +9,3 @@
 .hero-full-screen .top-bar .menu a:hover {
     color: #fff;
 }
-
-/* INICIO FORMULARIO */
-
-.form-nome .form-email .form-assunto  .form-assumensagem .form-mensagem  {
-transition: box-shadow .5s,border-color .25s ease-in-out;
-}
-.button.primary{
-
-    color: #fefefe;
-    transition: background-color .25s ease-out,color .25s ease-out;
-    margin-left: 1.5rem;
-    display:  inline-block;
-    line-height: 1;
-    cursor: pointer;
-    padding:  .85rem 1em;
-}
-/* FIM FORMULARIO */

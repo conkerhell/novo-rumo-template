@@ -1,6 +1,5 @@
 @import "settings"; 
 @import "foundation";
-@import "custom/button";
 
 @include foundation-global-styles;
 @include foundation-xy-grid-classes;
@@ -42,3 +41,10 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
+
+
+/*
+  My custom styles:
+  Add your scss files below to structure your project styles
+*/
+@import "custom/button";

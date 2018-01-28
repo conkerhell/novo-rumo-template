@@ -6216,3 +6216,10 @@ a.thumbnail {
 
 .clearfix::after {
   clear: both; }
+
+/*
+  My custom styles:
+  Add your scss files below to structure your project styles
+*/
+.button {
+  text-transform: uppercase; }

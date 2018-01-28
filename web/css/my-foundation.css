@@ -11,18 +11,6 @@
     left: auto;
     margin: 0 auto; } }
 
-/**
- * Foundation for Sites by ZURB
- * Version 6.4.2
- * foundation.zurb.com
- * Licensed under MIT Open Source
- */
-@media print, screen and (min-width: 40em) {
-  .reveal, .reveal.tiny, .reveal.small, .reveal.large {
-    right: auto;
-    left: auto;
-    margin: 0 auto; } }
-
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
        ========================================================================== */

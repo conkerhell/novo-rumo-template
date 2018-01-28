@@ -31,4 +31,5 @@ gulp.task('sync', ['scss'], function () {
   gulp.watch("web/views/*.html").on('change', browserSync.reload);
   gulp.watch("web/*.html").on('change', browserSync.reload);
   gulp.watch("web/css/*.css").on('change', browserSync.reload);
+  gulp.watch("scss/*.scss", ['scss']);
 });

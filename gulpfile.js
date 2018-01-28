@@ -3,16 +3,21 @@ var browserSync = require('browser-sync').create();
 
 var plugins = {
   sass: require('gulp-sass'),
-  notify: require("gulp-notify")
+  notify: require("gulp-notify"),
+  cleanCSS: require('gulp-clean-css'),
+  rename: require("gulp-rename")
 };
 
 var webFolder = 'web';
 
 gulp.task('sass', function() {
-  return gulp.src('app2.scss')
+  return gulp.src('my-foundation.scss')
       .pipe(plugins.sass(
          {includePaths: ['./node_modules/foundation-sites/scss']}
       ))
+      .pipe(gulp.dest('web/css'))
+      .pipe(plugins.cleanCSS())
+      .pipe(plugins.rename({ suffix: '.min' }))
       .pipe(gulp.dest('web/css'));
 });
 

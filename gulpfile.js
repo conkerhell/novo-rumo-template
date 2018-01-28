@@ -10,8 +10,8 @@ var plugins = {
 
 var webFolder = 'web';
 
-gulp.task('sass', function() {
-  return gulp.src('my-foundation.scss')
+gulp.task('scss', function() {
+  return gulp.src('scss/*.scss')
       .pipe(plugins.sass(
          {includePaths: ['./node_modules/foundation-sites/scss']}
       ))
@@ -21,7 +21,7 @@ gulp.task('sass', function() {
       .pipe(gulp.dest('web/css'));
 });
 
-gulp.task('sync', ['sass'], function () {
+gulp.task('sync', ['scss'], function () {
   browserSync.init({
     server: {
       baseDir: webFolder

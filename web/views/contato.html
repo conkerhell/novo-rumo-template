@@ -10,69 +10,49 @@
 </head>
 
 <body>
-    <div class="hero-full-screen">
-        <div class="top-content-section">
-            <div class="top-bar">
-                <div class="top-bar-left">
-                    <a href="\index.html" rel="home">
+    <header id="header" class="topbar-sticky-shrink-header">
+    </header>
 
-                        <img src="http://placehold.it/150x100" alt="Associação Novo Rumo Atibaia">
-                    </a>
+    <div data-sticky-container>
+        <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
+            <div class="top-bar topbar-sticky-shrink">
+                <div class="top-bar-title">
+                    <img src="https://placehold.it/150x38" alt="" />
                 </div>
-
                 <div class="top-bar-right">
-                    <ul class="menu float-left">
+                    <ul class="menu">
                         <li>
-                            <a href="\views\quem-somos.html">Quem somos</a>
+                            <a href="#">Thing 1</a>
                         </li>
                         <li>
-                            <a href="\views\dia-a-dia.html">Dia-a-dia</a>
+                            <a href="#">Thing 2</a>
                         </li>
                         <li>
-                            <a href="\views\seja-doador.html">Seja um doador</a>
-                        </li>
-                        <li>
-                            <a href="\views\loja.html">Loja</a>
-                        </li>
-                        <li>
-                            <a href="\views\contato.html"> Contato</a>
+                            <a href="#">Thing 3</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="middle-content-section">
-            <h1>Entre em contato conosco</h1>
-            <p>É sempre um prazer ouvir você</p>
-        </div>
-
-        <div class="bottom-content-section" data-magellan data-threshold="1">
-            <a href="#main-content-section">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"
-                    />
-                </svg>
+    <div id="content">
+        <div class="medium-12 large-12 small-12 cell">
+            <a href="https://www.google.com.br/maps/place/R.+Papa+Paulo+VI,+182+-+Vila+Thais,+Atibaia+-+SP/@-23.122769,-46.5545689,17z/data=!3m1!4b1!4m5!3m4!1s0x94cec0e1a81e3e05:0x6558c6c63c8ed231!8m2!3d-23.1227739!4d-46.5523802"
+                target="_blank">
+                <img src="/images/mapa-maior.png" alt="Map">
             </a>
         </div>
-    </div>
+        <div class="grid-x grid-padding-x">
+            <div class="cell text-center">
+                <h2>Entre em contato</h1>
+            </div>
 
-    <div class="medium-12 large-12 small-12 cell">
-        <a href="https://www.google.com.br/maps/place/R.+Papa+Paulo+VI,+182+-+Vila+Thais,+Atibaia+-+SP/@-23.122769,-46.5545689,17z/data=!3m1!4b1!4m5!3m4!1s0x94cec0e1a81e3e05:0x6558c6c63c8ed231!8m2!3d-23.1227739!4d-46.5523802"
-            target="_blank">
-            <img src="/images/mapa-maior.png" alt="Map">
-        </a>
-    </div>
-    <div class="grid-x grid-padding-x">
-        <div class="cell text-center">
-            <h2>Entre em contato</h1>
-        </div>
-
-        <div role="form" class="medium-12 large-12 small-12 cell">
+            <div role="form" class="medium-12 large-12 small-12 cell">
                 <label>Nome (Obrigatório)
                     <input type="text">
                 </label>
-            
+
                 <label>Email (Obrigatório)
                     <input type="email">
                 </label>
@@ -85,55 +65,55 @@
                     <textarea cols="40" rows="10" aria-invalid="false"></textarea>
                 </label>
 
-            <input type="submit" value="Enviar" class="button primary large">
+                <input type="submit" value="Enviar" class="button primary large">
+            </div>
+        </div>
+
+        <div class="grid-x grid-padding-x footer footer-details">
+            <div class="small-6 cell">
+                <h4>Conheça a Novo Rumo</h4>
+                <div class="info">
+                    <p>
+                        <b>Endereço</b>
+                    </p>
+                    <p>Rua Papa Paulo VI, nr 182 - Vila Thais</p>
+                    <p>Atibaia, Sao Paulo, Brazil 12942-110</p>
+
+                </div>
+                <div class="info">
+                    <p>
+                        <b>Contato</b>
+                    </p>
+                    <p>contato@novorumoatibaia.com.br</p>
+                    <p>(11) 3402-1623</p>
+                </div>
+
+            </div>
+            <div class="small-6 cell">
+                <h4>Curta-nos!</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sagittis felis. Etiam ante dui, iaculis vel
+                    augue et, gravida blandit nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                    fames ac turpis egestas. Integer ullamcorper dui sapien, non semper lorem suscipit pharetra. Donec eu
+                    leo elementum, sagittis massa ut, tempor turpis. Nullam fringilla arcu a leo pellentesque, in.</p>
+            </div>
+        </div>
+        <div class="grid-padding-x footer footer-info">
+            <div class="cell footer-left">
+                <div class="contact-details">
+                    <p>2017 Associação Novo Rumo criado com carinho por
+                        <a href="http://victorfontana.com.br">Victor Fontana</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/foundation.js"></script>
 
-    <div class="grid-x grid-padding-x footer footer-details">
-        <div class="small-6 cell">
-            <h4>Conheça a Novo Rumo</h4>
-            <div class="info">
-                <p>
-                    <b>Endereço</b>
-                </p>
-                <p>Rua Papa Paulo VI, nr 182 - Vila Thais</p>
-                <p>Atibaia, Sao Paulo, Brazil 12942-110</p>
-
-            </div>
-            <div class="info">
-                <p>
-                    <b>Contato</b>
-                </p>
-                <p>contato@novorumoatibaia.com.br</p>
-                <p>(11) 3402-1623</p>
-            </div>
-
-        </div>
-        <div class="small-6 cell">
-            <h4>Curta-nos!</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sagittis felis. Etiam ante dui, iaculis vel augue
-                et, gravida blandit nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                egestas. Integer ullamcorper dui sapien, non semper lorem suscipit pharetra. Donec eu leo elementum, sagittis
-                massa ut, tempor turpis. Nullam fringilla arcu a leo pellentesque, in.</p>
-        </div>
-    </div>
-    <div class="grid-padding-x footer footer-info">
-        <div class="cell footer-left">
-            <div class="contact-details">
-                <p>2017 Associação Novo Rumo criado com carinho por
-                    <a href="http://victorfontana.com.br">Victor Fontana</a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="./js/jquery.js"></script>
-    <script type="text/javascript" src="./js/foundation.js"></script>
     <script>
         $(document).foundation();
     </script>
-
 </body>
 
 </html>

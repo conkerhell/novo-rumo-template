@@ -444,7 +444,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Josefin Sans", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -3344,7 +3344,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Josefin Sans", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -6307,20 +6307,24 @@ a.thumbnail {
   background-image: url(.\images\facebook.png); }
 
 .topbar-sticky-shrink {
-  padding: 2rem;
+  padding: 1rem;
   transition: padding 0.25s ease;
-  background: #2c3840; }
+  background: #fff;
+  text-transform: uppercase; }
   .topbar-sticky-shrink .menu {
-    background: #2c3840; }
+    background: #fff; }
+  .topbar-sticky-shrink .top-bar-center {
+    margin: 0 auto; }
 
 .is-stuck .topbar-sticky-shrink {
-  padding: 1rem;
-  transition: padding 0.25s ease; }
+  transition: padding 0.25s ease;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2); }
 
 [data-sticky] {
   width: 100%; }
 
 .topbar-sticky-shrink-header {
   padding: 10rem 0;
-  background: url("https://placehold.it/2000x500&text=this is a header") center center no-repeat;
   background-size: cover; }

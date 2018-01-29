@@ -5,6 +5,7 @@ $topbar-sticky-stuck-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
     padding: $topbar-sticky-shrink-padding;
     transition: padding 0.25s ease;
     background: $topbar-sticky-shrink-bg;
+    text-transform: uppercase;
     .menu {
         background: $topbar-sticky-shrink-bg;
     }

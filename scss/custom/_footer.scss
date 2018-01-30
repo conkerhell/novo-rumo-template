@@ -1,28 +1,15 @@
 .footer {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
     padding: 1rem 0;
     align-items: center;
-    color:#fefefe;
-  }
-  
-  .footer a {
-    color:#fefefe;
-    font-weight: bold;
-  }
-  
-  .footer-info {
-    background-color: #74474F;
-  }
-  
-  .footer-details {
+    background: url(/images/sparkles.gif);
+    background-position: top;
+    background-repeat: repeat;
     background-color: #C15666;
-    margin-top: 40px;
-  }
-  
-  .footer .info p {
+    color: #fff
+}
+
+.footer .info p {
     margin-bottom: 0;
-  }
-  
-  
-  .facebook {
-      background-image: url(.\images\facebook.png);
-  }
+}

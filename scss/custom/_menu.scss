@@ -1,8 +1,7 @@
-$topbar-sticky-shrink-padding: 1rem; // controls the un-stuck height of topbar
+$topbar-sticky-shrink-padding: 0rem;
 $topbar-sticky-shrink-bg: #fff;
 $topbar-sticky-stuck-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
 $topbar-sticky-font-size: 0.8em;
-
 .topbar-sticky-shrink {
     padding: $topbar-sticky-shrink-padding;
     transition: padding 0.25s ease;
@@ -10,11 +9,13 @@ $topbar-sticky-font-size: 0.8em;
     text-transform: uppercase;
     font-weight: 700;
     font-size: $topbar-sticky-font-size;
-    .menu {
-        background: $topbar-sticky-shrink-bg;
-    }
     .top-bar-center {
         margin: 0 auto;
+    }
+    a {
+        text-align: center;
+        line-height: 4.25em;
+        padding: .7rem 2rem
     }
 }
 

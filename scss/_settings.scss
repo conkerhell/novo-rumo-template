@@ -70,7 +70,7 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #00b9c1,
-  secondary: #767676,
+  secondary: #f5928b,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -148,7 +148,7 @@ $header-styles: (
   ),
   medium: (
     'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
+    'h2': ('font-size': 6.75em),
     'h3': ('font-size': 31),
     'h4': ('font-size': 25),
     'h5': ('font-size': 20),
@@ -168,7 +168,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
-$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-color-hover: $secondary-color;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;

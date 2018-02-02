@@ -11,6 +11,20 @@
     height: 20rem;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-size: 6.75em;
+    line-height: 0.8em;
+    letter-spacing: 5px;
+}
+
+h3 {
+    padding-top: 15px;
+    font-size: 25px;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+
 .blue-content {
     padding: 120px 0px 190px 0;
     background: url(/images/sparkles.gif);

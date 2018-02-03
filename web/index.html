@@ -12,6 +12,8 @@
 
 <body>
     <header id="header" class="topbar-sticky-shrink-header">
+        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like"
+            data-size="small" data-show-faces="false" data-share="false"></div>
     </header>
 
     <div data-sticky-container>
@@ -41,70 +43,87 @@
     </div>
 
     <div id="content">
-        <div class="blue-content grid-padding-x text-center">
-            <div>
+        <div class="blue-content text-center">
+            <div class="grid-container">
                 <h2>Quem somos</h2>
             </div>
         </div>
-        <div class="white-content grid-padding-x">
-            <div class="grid-x">
-                <div class="small-12 medium-6 cell text-center">
-                    <h2 class="pink">Sócio amigo</h2>
+        <div class="white-content">
+            <div class="grid-container">
+                <div class="small-12 medium-6 cell">
+                    <h2>Sócio amigo</h2>
                 </div>
             </div>
             <div class="grid-x">
                 <div class="small-4 cell"></div>
-                <div class="small-4 cell text-center">
-                    <h3 class="pink">A Associação Novo Rumo precisa de doações para manter as suas atividades.</h3>
+                <div class="small-4 cell text-center quote">
+                    <img src="images/idea-icon.png">
+                    <h3>A Associação Novo Rumo precisa de doações para manter as suas atividades.</h3>
                 </div>
                 <div class="small-4 cell"></div>
             </div>
         </div>
-        <div class="pink-content grid-padding-x">
-            
-            <h2>Evento</h2>
+        <div class="pink-content">
+            <div class="grid-container grid-x">
+                <div class="small-12 medium-6 cell">
+                    <h2>Eventos</h2>
+                </div>
+                <div class="small-12 medium-6 cell">
+                    <h5>Localização</h6>
+                </div>
+            </div>
         </div>
     </div>
 
 
     <div class="footer">
-        <div class="grid-x grid-padding-x">
-            <div class="small-6 cell">
-                <h6>Sobre nós</h6>
+        <div class="grid-container">
+            <div class="grid-x">
+                <div class="small-6 cell">
+                    <h6>Sobre nós</h6>
+                </div>
+                <div class="small-6 cell">
+                    <h6>Contato</h6>
+                </div>
             </div>
-            <div class="small-6 cell">
-                <h6>Contato</h6>
+            <div class="grid-x">
+                <div class="small-6 cell">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </br>
+                        In eu sagittis felis. Etiam ante dui, iaculis vel augue et, gravida blandit nunc.</p>
+                </div>
+                <div class="small-6 cell">
+                    <a href="#">
+                        <div class="facebook social-icon">
+                            <img src="/images/fb.png" />
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="email social-icon">
+                            <img src="/images/mail.png" />
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="grid-x grid-padding-x">
-            <div class="small-6 cell">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </br>
-                    In eu sagittis felis. Etiam ante dui, iaculis vel augue et, gravida blandit nunc.</p>
-            </div>
-            <div class="small-6 cell">
-                <a href="#">
-                    <div class="facebook social-icon">
-                        <img src="/images/fb.png" />
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="email social-icon">
-                        <img src="/images/mail.png" />
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="grid-x grid-padding-x info">
-            <div class="small-6 cell">
-                <p>Desenvolvido com carinho por Victor Fontana</p>
+            <div class="grid-x info">
+                <div class="small-6 cell">
+                    <p>Desenvolvido com carinho por Victor Fontana</p>
+                </div>
             </div>
         </div>
     </div>
 
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="./js/foundation.js"></script>
+    <div id="fb-root"></div>
     <script>
         $(document).foundation();
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.12&appId=269841363195323&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 </body>
 

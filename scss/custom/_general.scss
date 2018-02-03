@@ -37,7 +37,7 @@ h3 {
 .white-content {
     padding: 120px 0px 190px 0;
     background: url(/images/sparkles-white.png);
-    .pink {
+    h2, h3 {
         color: $secondary-color;
     }
 }
@@ -49,4 +49,13 @@ h3 {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     height:5000px;
+    padding-top: 140px;
+    h2, h3 {
+        color: white;
+    }
+}
+
+.quote {
+    position: relative;
+    top: -60px
 }

@@ -34,3 +34,10 @@ $topbar-sticky-font-size: 0.8em;
     padding: 17rem 0;
     background-size: cover;
 }
+
+div.fb-like.fb_iframe_widget {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999
+}

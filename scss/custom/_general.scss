@@ -11,7 +11,12 @@
     height: 20rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-transform: uppercase;
 }
 
@@ -32,7 +37,9 @@ h2 {
 .white-content {
     padding: 120px 0px 190px 0;
     background: url(/images/sparkles-white.png);
-    h2, h3, h4 {
+    h2,
+    h3,
+    h4 {
         color: $secondary-color;
     }
     h4 {
@@ -47,10 +54,10 @@ h2 {
     background-repeat: repeat;
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    height:5000px;
+    height: 5000px;
     padding-top: 140px;
     color: #fff;
-    h6 {
+    .yellow {
         color: #ffcf00;
     }
 }
@@ -58,4 +65,8 @@ h2 {
 .quote {
     position: relative;
     top: -60px
+}
+
+.top-cell-padding {
+    padding-top: 140px;
 }

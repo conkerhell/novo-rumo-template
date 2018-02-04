@@ -11,18 +11,13 @@
     height: 20rem;
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
-    font-size: 6.75em;
-    line-height: 0.8em;
-    letter-spacing: 5px;
 }
 
-h3 {
-    padding-top: 15px;
-    font-size: 25px;
-    line-height: 31px;
-    text-transform: uppercase;
+h2 {
+    line-height: 0.8em;
+    letter-spacing: 5px;
 }
 
 .blue-content {
@@ -37,8 +32,12 @@ h3 {
 .white-content {
     padding: 120px 0px 190px 0;
     background: url(/images/sparkles-white.png);
-    h2, h3 {
+    h2, h3, h4 {
         color: $secondary-color;
+    }
+    h4 {
+        padding-top: 15px;
+        line-height: 31px;
     }
 }
 
@@ -52,7 +51,6 @@ h3 {
     padding-top: 140px;
     color: #fff;
     h6 {
-        text-transform: uppercase;
         color: #ffcf00;
     }
 }

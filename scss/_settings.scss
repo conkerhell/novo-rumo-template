@@ -70,7 +70,7 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #00b9c1,
-  secondary: #767676,
+  secondary: #f5928b,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -148,9 +148,9 @@ $header-styles: (
   ),
   medium: (
     'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
+    'h2': ('font-size': 6.75em),
+    'h3': ('font-size': 4.75em),
+    'h4': ('font-size': 1.75em),
     'h5': ('font-size': 20),
     'h6': ('font-size': 16),
   ),
@@ -168,7 +168,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
-$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-color-hover: $secondary-color;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
@@ -296,8 +296,8 @@ $button-sizes: (
 );
 $button-palette: $foundation-palette;
 $button-opacity-disabled: 0.25;
-$button-background-hover-lightness: -20%;
-$button-hollow-hover-lightness: -50%;
+$button-background-hover-lightness: 10%;
+$button-hollow-hover-lightness: 30%;
 $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;;
 
 // 12. Button Group
@@ -420,7 +420,7 @@ $input-prefix-color: $black;
 $input-prefix-background: $light-gray;
 $input-prefix-border: 1px solid $medium-gray;
 $input-prefix-padding: 1rem;
-$form-label-color: $black;
+$form-label-color: $secondary-color;
 $form-label-font-size: rem-calc(15);
 $form-label-font-weight: $global-weight-normal;
 $form-label-line-height: 1.8;

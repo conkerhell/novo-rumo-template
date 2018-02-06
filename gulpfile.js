@@ -8,17 +8,23 @@ var plugins = {
   rename: require("gulp-rename")
 };
 
+function swallowError(error) {
+  console.log(error.toString())
+  this.emit('end')
+}
+
 var webFolder = 'web';
 
-gulp.task('scss', function() {
+gulp.task('scss', function () {
   return gulp.src('scss/*.scss')
-      .pipe(plugins.sass(
-         {includePaths: ['./node_modules/foundation-sites/scss']}
-      ))
-      .pipe(gulp.dest('web/css'))
-      .pipe(plugins.cleanCSS())
-      .pipe(plugins.rename({ suffix: '.min' }))
-      .pipe(gulp.dest('web/css'));
+    .pipe(plugins.sass(
+      { includePaths: ['./node_modules/foundation-sites/scss'] }
+    ))
+    .on('error', swallowError)
+    .pipe(gulp.dest('web/css'))
+    .pipe(plugins.cleanCSS())
+    .pipe(plugins.rename({ suffix: '.min' }))
+    .pipe(gulp.dest('web/css'));
 });
 
 gulp.task('sync', ['scss'], function () {

@@ -80,3 +80,9 @@ h2 {
 .top-cell-padding {
     padding-top: 140px;
 }
+
+@include breakpoint(small only) {
+    .quote {
+        top:0;   
+    }
+}

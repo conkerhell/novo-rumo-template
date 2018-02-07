@@ -3365,13 +3365,13 @@ h1, .h1 {
   margin-bottom: 0.5rem; }
 
 h2, .h2 {
-  font-size: 1.25rem;
+  font-size: 3.75rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 h3, .h3 {
-  font-size: 1.1875rem;
+  font-size: 2.75rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -5103,69 +5103,6 @@ html.is-reveal-open body {
 .button {
   text-transform: uppercase; }
 
-.middle-content-section {
-  text-align: center;
-  color: #f5928b; }
-  .middle-content-section p {
-    font-weight: 600; }
-
-.top-bar,
-.top-bar ul {
-  background-color: transparent; }
-
-.hero-full-screen {
-  height: 90vh;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  background: url("http://placehold.it/1500/3d3d3d/?text=+") center center no-repeat;
-  background-size: cover; }
-
-.hero-full-screen .middle-content-section {
-  text-align: center;
-  color: #fefefe; }
-
-.hero-full-screen .top-content-section {
-  width: 100%; }
-
-.hero-full-screen .bottom-content-section {
-  padding: 1rem; }
-
-.hero-full-screen .bottom-content-section svg {
-  height: 2.75rem;
-  width: 2.75rem;
-  fill: #fefefe; }
-
-.hero-full-screen .top-bar {
-  background: transparent; }
-
-.hero-full-screen .top-bar .menu {
-  background: transparent; }
-
-.hero-full-screen .top-bar .menu-text {
-  color: #fefefe; }
-
-.hero-full-screen .top-bar .menu li {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.hero-full-screen .top-bar .menu a {
-  color: darkgrey;
-  font-weight: bold; }
-
 .footer {
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
@@ -5224,6 +5161,9 @@ html.is-reveal-open body {
   box-sizing: border-box; }
   .social-icon img {
     -webkit-transform: rotate(-45deg); }
+
+.top-bar, .top-bar ul {
+  background-color: #fff; }
 
 .topbar-sticky-shrink {
   padding: 0rem;
@@ -5323,3 +5263,7 @@ h2 {
 
 .top-cell-padding {
   padding-top: 140px; }
+
+@media screen and (max-width: 39.9375em) {
+  .quote {
+    top: 0; } }

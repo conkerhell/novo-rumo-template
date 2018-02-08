@@ -10,8 +10,7 @@
     <meta charset="utf-8">
     <title>Associação Novo Rumo Atibaia</title>
     <link rel="stylesheet" href="/css/app.min.css">
-    <link rel="stylesheet" href="/css/app-effects.css" async>
-    <link class="fonte" href="https://fonts.googleapis.com/css?family=Sura|Fredericka the Great" rel="stylesheet" async>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet" async>
     
 </head>
 
@@ -22,33 +21,32 @@
         data-size="small" data-show-faces="false" data-share="false"></div>
     </header>
     
-    <!-- MENU -->
-    <div data-sticky-container>
-        <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
-            <div class="top-bar topbar-sticky-shrink">
-                <div class="top-bar-center">
-                    <ul class="menu">
-                        <li>
-                            <a href="views/quem-somos.html">Quem somos</a>
-                        </li>
-                        <li>
-                            <a href="#">Seja um doador</a>
-                        </li>
-                        <li>
-                            <a href="#">Eventos</a>
-                        </li>
-                        <li>
-                            <a href="views/loja.html">Loja</a>
-                        </li>
-                        <li>
-                            <a href="views/contato.html">Contato</a>
-                        </li>
-                    </ul>
-                </div>
+  <!-- MENU -->
+  <div data-sticky-container>
+    <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
+        <div class="top-bar topbar-sticky-shrink">
+            <div class="top-bar-center">
+                <ul class="menu">
+                    <li>
+                        <a href="views/quem-somos.html">Quem somos</a>
+                    </li>
+                    <li>
+                        <a href="#">Seja um doador</a>
+                    </li>
+                    <li>
+                        <a href="#">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="views/loja.html">Loja</a>
+                    </li>
+                    <li>
+                        <a href="views/contato.html">Contato</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    
+</div>
     
     <div class="middle-content-section">
         <h1>Loja da Novo Rumo Atibaia</h1>
@@ -86,7 +84,7 @@
         <div class="medium-4 large-4 small-12 cell">
             <figure>
                 <a>
-                    <img src="\images\produto.jpg" alt="Casa artesanal" class="product-grid">
+                    <img src="\images\produto.jpg" alt="Pratos e Xícaras" class="product-grid">
                 </a>
             </figure>
             <div class="grid-x align-center prod-name">
@@ -102,10 +100,10 @@
                 <a href="/produto/granola" class="button btn">Comprar</a>
             </div>
         </div>
-        <div class="medium-4 large-4 small-12 cell product-grid">
+        <div class="medium-4 large-4 small-12 cell">
             <figure>
                 <a>
-                    <img src="\images\granola.jpg" alt="Casa artesanal" class="product-grid">
+                    <img src="\images\granola.jpg" alt="Granola" class="product-grid">
                 </a>
             </figure>
             <div class="grid-x align-center prod-name">
@@ -162,10 +160,17 @@
         
         <script type="text/javascript" src="./js/jquery.js"></script>
         <script type="text/javascript" src="./js/foundation.js"></script>
+        <div id="fb-root"></div>
         <script>
             $(document).foundation();
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.12&appId=269841363195323&autoLogAppEvents=1';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
         </script>
-        
         
     </body>
     

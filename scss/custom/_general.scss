@@ -4,6 +4,11 @@
     height: 45px;
     width: 100%;
     border-radius: 0 0 10px 10px;
+    h3{
+
+        font-size: 20px;
+    
+    }
 }
 
 .product-grid {
@@ -20,6 +25,7 @@ h6 {
     text-transform: uppercase;
     font-weight: 900;
 }
+
 
 h2 {
     line-height: 0.8em;
@@ -47,6 +53,9 @@ h2 {
         padding-top: 15px;
         line-height: 31px;
     }
+    p{
+        color: $primary-color;
+    }
 }
 
 .pink-content {
@@ -70,4 +79,10 @@ h2 {
 
 .top-cell-padding {
     padding-top: 140px;
+}
+
+@include breakpoint(small only) {
+    .quote {
+        top:0;   
+    }
 }

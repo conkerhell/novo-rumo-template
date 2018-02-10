@@ -5198,6 +5198,12 @@ div.fb-like.fb_iframe_widget {
   right: 20px;
   z-index: 999; }
 
+.middle-content-section {
+  color: #cc4b37;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
 .prod-name {
   background-color: rgba(104, 255, 247, 0.158);
   border-bottom: 1px solid #eeeeee;
@@ -5209,7 +5215,8 @@ div.fb-like.fb_iframe_widget {
 
 .product-grid {
   border-radius: 10px 10px 0 0;
-  height: 20rem; }
+  height: 20rem;
+  margin-top: 5rem; }
 
 h1,
 h2,

@@ -21,22 +21,12 @@
         <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
             <div class="top-bar topbar-sticky-shrink">
                 <div class="top-bar-center">
-                    <ul class="menu">
-                        <li data-magellan data-threshold="0">
-                            <a href="#quem-somos">Quem somos</a>
-                        </li>
-                        <li data-magellan data-threshold="0">
-                            <a href="#seja-um-doador">Seja um doador</a>
-                        </li>
-                        <li data-magellan data-threshold="0">
-                            <a href="#eventos">Eventos</a>
-                        </li>
-                        <li data-magellan data-threshold="0">
-                            <a href="#loja">Loja</a>
-                        </li>
-                        <li data-magellan data-threshold="0">
-                            <a href="#contato">Contato</a>
-                        </li>
+                    <ul class="menu" data-magellan>
+                        <li><a href="#quem-somos">Quem somos</a></li>
+                        <li><a href="#seja-um-doador">Seja um doador</a></li>
+                        <li><a href="#eventos">Eventos</a></li>
+                        <li><a href="#loja">Loja</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -165,6 +155,7 @@
     <div id="fb-root"></div>
     <script>
         $(document).foundation();
+
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;

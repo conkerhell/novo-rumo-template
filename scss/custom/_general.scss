@@ -69,13 +69,14 @@ h2 {
 }
 
 .pink-content {
-    background: url(/images/sparkles.gif), url(/images/bg-top.png);
+    // background: url(/images/sparkles.gif), url(/images/bg-top.png);
+    background-image: url(/images/sparkles.gif);
+    background-color: $secondary-color;
     background-position: top;
     background-repeat: repeat;
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    height: 5000px;
-    padding-top: 140px;
+    padding: 120px 0px 190px 0;
     color: #fff;
     .yellow {
         color: #ffcf00;

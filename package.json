@@ -17,6 +17,7 @@
     "gulp-clean-css": "2.0.12"
   },
   "dependencies": {
-    "foundation-sites": "6.4.2"
+    "foundation-sites": "6.4.2",
+    "skrollr": "^0.6.26"
   }
 }

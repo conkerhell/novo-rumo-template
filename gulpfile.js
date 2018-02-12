@@ -14,6 +14,15 @@ function swallowError(error) {
 }
 
 var webFolder = 'web';
+var webJavascriptFolder = 'web/js';
+
+gulp.task('copy-js-files', function () {
+  gulp.src([
+    'node_modules/foundation-sites/dist/js/foundation.min.js',
+    'node_modules/jquery/dist/jquery.min.js'
+  ])
+    .pipe(gulp.dest(webJavascriptFolder));
+});
 
 gulp.task('scss', function () {
   return gulp.src('scss/*.scss')
@@ -27,7 +36,7 @@ gulp.task('scss', function () {
     .pipe(gulp.dest('web/css'));
 });
 
-gulp.task('sync', ['scss'], function () {
+gulp.task('sync', ['scss', 'copy-js-files'], function () {
   browserSync.init({
     server: {
       baseDir: webFolder

@@ -13,9 +13,9 @@
     <!-- HEADER -->
     <header id="header" class="topbar-sticky-shrink-header">
         <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like"
-            data-size="small" data-show-faces="false" data-share="false"></div>
+        data-size="small" data-show-faces="false" data-share="false"></div>
     </header>
-
+    
     <!-- MENU -->
     <div data-sticky-container>
         <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
@@ -42,12 +42,23 @@
             </div>
         </div>
     </div>
-
+    
     <!-- BODY -->
     <div id="content">
         <div class="blue-content text-center" id="quem-somos" data-magellan-target="quem-somos">
             <div class="grid-container">
                 <h2>Quem somos</h2>
+            </div>
+            <div class=" small-12 medium-4 large-offset-4 cell text-center texto-quem-somos">
+                <p> Associação Novo Rumo Atibaia é uma instituição de assistência social sem fins lucrativos fundada em xxxx, direcionado a jovens e adultos com deficiência intelectual,  que atende de segunta a sexta-feira das xx ás xx na região de Atibia. </p>
+                <p>
+                    Proposta da Associação Novo Rumo é fazer que todos ganhem a percepção de seu potencial através de atividades que são dadas no dia a dia. Não é dado foco na deficiência, monstrando que todos nós temos dificuldades e que todos nós podemos superá-las, com ajuda de amigos ou de algum profissional que esta acompanhando as atividades do dia.
+                </p>
+                
+                <p>
+                    O nosso maior ganho e foco esta na melhora de qualidade de vida de cada aluno que recebos, tendo como objetivo a inserção desses jovens e adultos dentro da sociedade, promovendo a inclusão social.
+                    Para chegarmos neste objetivo com sucesso, tarbalhamos com nossos alunos todos os dias em atividades específicas.
+                </p>
             </div>
         </div>
         <div class="white-content" id="seja-um-doador" data-magellan-target="seja-um-doador">
@@ -87,97 +98,113 @@
                     <h6 class="yellow text-center">Localização</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, ligula a convallis ullamcorper,
                         lorem lectus consectetur velit, non faucibus.</p>
-                    <h6 class="yellow text-center">Descrição</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat nulla, vehicula a nunc quis, porta
-                        luctus nisi. Duis id ligula a purus feugiat volutpat eget ut leo. Ut sit amet bibendum eros. Proin
-                        convallis eleifend velit. Donec facilisis quis purus ut mollis. Phasellus eget nibh in ex mattis
-                        mollis.
-                    </p>
+                        <h6 class="yellow text-center">Descrição</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat nulla, vehicula a nunc quis, porta
+                            luctus nisi. Duis id ligula a purus feugiat volutpat eget ut leo. Ut sit amet bibendum eros. Proin
+                            convallis eleifend velit. Donec facilisis quis purus ut mollis. Phasellus eget nibh in ex mattis
+                            mollis.
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div class="white-content" id="contato">
+                <div class="grid-container">
+                    <div class="small-12 medium-12 cell">
+                        <div class="cell text-center">
+                            <h3>Entre em contato</h1>
+                            </div>
+                            
+                            <div role="form" class="medium-12 large-12 small-12 cell">
+                                <label>Nome (Obrigatório)
+                                    <input type="text">
+                                </label>
+                                
+                                <label>Email (Obrigatório)
+                                    <input type="email">
+                                </label>
+                                
+                                <label>Assunto
+                                    <input type="text">
+                                </label>
+                                
+                                <label>Mensagem (Obrigatório)
+                                    <textarea cols="40" rows="10" aria-invalid="false"></textarea>
+                                </label>
+                                
+                                <input type="submit" value="Enviar" class="button secondary hollow large">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="class=small-12 medium-12  cell mapa">
+                    
+                    <p> <a data-open="open-map"> Clique aqui para ver o mapa</a></p>
+                    <div class="reveal" id="open-map" data-reveal>
+                        <img src="/images/mapa.jpg" />
+                        <button class="close-button" data-close aria-label="Close reveal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
         </div>
-        <div class="white-content" id="contato">
+        
+        <!-- FOOTER -->
+        <div class="footer">
             <div class="grid-container">
-                <div class="small-12 medium-12 cell">
-                    <div class="cell text-center">
-                        <h3>Entre em contato</h1>
+                <div class="grid-x">
+                    <div class="small-6 cell">
+                        <h6>Sobre nós</h6>
                     </div>
-
-                    <div role="form" class="medium-12 large-12 small-12 cell">
-                        <label>Nome (Obrigatório)
-                            <input type="text">
-                        </label>
-
-                        <label>Email (Obrigatório)
-                            <input type="email">
-                        </label>
-
-                        <label>Assunto
-                            <input type="text">
-                        </label>
-
-                        <label>Mensagem (Obrigatório)
-                            <textarea cols="40" rows="10" aria-invalid="false"></textarea>
-                        </label>
-
-                        <input type="submit" value="Enviar" class="button secondary hollow large">
+                    <div class="small-6 cell">
+                        <h6>Contato</h6>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div class="footer">
-        <div class="grid-container">
-            <div class="grid-x">
-                <div class="small-6 cell">
-                    <h6>Sobre nós</h6>
-                </div>
-                <div class="small-6 cell">
-                    <h6>Contato</h6>
-                </div>
-            </div>
-            <div class="grid-x">
-                <div class="small-6 cell">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </br>
-                        In eu sagittis felis. Etiam ante dui, iaculis vel augue et, gravida blandit nunc.</p>
-                </div>
-                <div class="small-6 cell">
-                    <a href="#">
-                        <div class="facebook social-icon">
-                            <img src="/images/fb.png" />
+                <div class="grid-x">
+                    <div class="small-6 cell">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </br>
+                            In eu sagittis felis. Etiam ante dui, iaculis vel augue et, gravida blandit nunc.</p>
                         </div>
-                    </a>
-                    <a href="#">
-                        <div class="email social-icon">
-                            <img src="/images/mail.png" />
+                        <div class="small-6 cell">
+                            <a href="#">
+                                <div class="facebook social-icon">
+                                    <img src="/images/fb.png" />
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="email social-icon">
+                                    <img src="/images/mail.png" />
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                    </div>
+                    <div class="grid-x info">
+                        <div class="small-6 cell">
+                            <p>Desenvolvido com carinho por Victor Fontana</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="grid-x info">
-                <div class="small-6 cell">
-                    <p>Desenvolvido com carinho por Victor Fontana</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="./js/jquery.js"></script>
-    <script type="text/javascript" src="./js/foundation.js"></script>
-    <div id="fb-root"></div>
-    <script>
-        $(document).foundation();
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.12&appId=269841363195323&autoLogAppEvents=1';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-</body>
-
-</html>
+            
+            <script type="text/javascript" src="./js/jquery.js"></script>
+            <script type="text/javascript" src="./js/foundation.js"></script>
+            <div id="fb-root"></div>
+            <script>
+                $(document).foundation();
+                
+                (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.12&appId=269841363195323&autoLogAppEvents=1';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
+        </body>
+        
+        </html>

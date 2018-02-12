@@ -5198,6 +5198,15 @@ div.fb-like.fb_iframe_widget {
   right: 20px;
   z-index: 999; }
 
+.mapa {
+  margin-bottom: 5rem;
+  margin-left: 5rem; }
+
+.texto-quem-somos {
+  margin-top: 6rem;
+  font-weight: 550;
+  text-transform: initial; }
+
 .middle-content-section {
   color: #cc4b37;
   text-align: center;
@@ -5253,13 +5262,13 @@ h2 {
     color: #00b9c1; }
 
 .pink-content {
-  background: url(/images/sparkles.gif), url(/images/bg-top.png);
+  background-image: url(/images/sparkles.gif);
+  background-color: #f5928b;
   background-position: top;
   background-repeat: repeat;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
-  height: 5000px;
-  padding-top: 140px;
+  padding: 120px 0px 190px 0;
   color: #fff; }
   .pink-content .yellow {
     color: #ffcf00; }

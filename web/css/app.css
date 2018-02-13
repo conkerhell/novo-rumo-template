@@ -5175,6 +5175,12 @@ nav {
   box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
   overflow: hidden; }
 
+#header {
+  height: 100%;
+  background-color: #000;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000; }
+
 .top-bar,
 .top-bar ul {
   background-color: #fff; }
@@ -5194,7 +5200,7 @@ nav {
     padding: .7rem 2rem; }
 
 .topbar-sticky-shrink-header {
-  padding: 17rem 0;
+  padding: 20rem 0;
   background-size: cover; }
 
 div.fb-like.fb_iframe_widget {
@@ -5202,10 +5208,6 @@ div.fb-like.fb_iframe_widget {
   top: 20px;
   right: 20px;
   z-index: 999; }
-
-.mapa {
-  margin-bottom: 5rem;
-  margin-left: 5rem; }
 
 .middle-content-section {
   color: #cc4b37;

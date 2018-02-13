@@ -23,6 +23,17 @@ nav {
     -webkit-perspective: 1000
 }
 
+.spirit {
+    background: url('http://via.placeholder.com/1265x711') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    overflow: hidden
+}
+
 .top-bar,
 .top-bar ul {
     background-color: $topbar-sticky-shrink-bg;

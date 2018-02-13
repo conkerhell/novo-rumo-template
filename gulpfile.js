@@ -20,7 +20,9 @@ gulp.task('copy-js-files', function () {
   gulp.src([
     'node_modules/foundation-sites/dist/js/foundation.min.js',
     'node_modules/jquery/dist/jquery.min.js',
-    'node_modules/skrollr/dist/skrollr.min.js'
+    'node_modules/jquery/dist/jquery.js',
+    'node_modules/skrollr/dist/skrollr.min.js',
+    'node_modules/skrollr-stylesheets/dist/skrollr.stylesheets.min.js'
   ])
     .pipe(gulp.dest(webJavascriptFolder));
 });

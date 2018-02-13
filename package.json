@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "foundation-sites": "6.4.2",
-    "skrollr": "0.6.26"
+    "skrollr": "0.6.26",
+    "skrollr-stylesheets": "^1.0.0"
   }
 }

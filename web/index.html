@@ -17,31 +17,30 @@
     </header>
 
     <!-- MENU -->
-    <div data-sticky-container>
-        <div data-sticky data-margin-top='0' data-top-anchor="header:bottom" data-btm-anchor="content:bottom">
-            <div class="top-bar topbar-sticky-shrink">
-                <div class="top-bar-center">
-                    <ul class="menu" data-magellan>
-                        <li>
-                            <a href="#quem-somos">Quem somos</a>
-                        </li>
-                        <li>
-                            <a href="#seja-um-doador">Seja um doador</a>
-                        </li>
-                        <li>
-                            <a href="#eventos">Eventos</a>
-                        </li>
-                        <li>
-                            <a href="#loja">Loja</a>
-                        </li>
-                        <li>
-                            <a href="#contato">Contato</a>
-                        </li>
-                    </ul>
-                </div>
+
+    <nav data-50p="top:-4.25em;" data-80p="top:0px;">
+        <div class="top-bar topbar-sticky-shrink">
+            <div class="top-bar-center">
+                <ul class="menu" data-magellan>
+                    <li>
+                        <a href="#quem-somos">Quem somos</a>
+                    </li>
+                    <li>
+                        <a href="#seja-um-doador">Seja um doador</a>
+                    </li>
+                    <li>
+                        <a href="#eventos">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="#loja">Loja</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
 
     <!-- BODY -->
     <div id="content">
@@ -202,9 +201,25 @@
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/foundation.min.js"></script>
+    <script type="text/javascript" src="./js/skrollr.min.js"></script>
+    <script type="text/javascript" src="./js/skrollr.stylesheets.min.js"></script>
+
     <div id="fb-root"></div>
     <script>
         $(document).foundation();
+
+        $(window).on('load', function () {
+            $(window).resize(function () {
+                if ($(window).width() > 1023) {
+                    skrollr.init({
+                        forceHeight: false,
+                        smoothScrolling: false
+                    });
+                } else {
+
+                }
+            }).resize();
+        });
 
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];

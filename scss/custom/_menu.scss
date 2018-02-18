@@ -10,11 +10,35 @@ nav {
     height: 4.25em;
     background-color: #fff;
     z-index: 99;
+    text-align: center;
     -webkit-box-shadow: $topbar-sticky-stuck-shadow;
     -moz-box-shadow: $topbar-sticky-stuck-shadow;
     box-shadow: $topbar-sticky-stuck-shadow;
-    overflow: hidden
+    overflow: hidden;
+    h4{
+        font-size: 0.8em;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        -webkit-margin-before: 1.33em;
+        -webkit-margin-after: 1.33em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+    }
+    
 }
+
+.title-bar{
+    height: 4.5em;
+    
+  }
+
+  .menu-icon{
+    
+  }
 
 #header {
     height: 100%;
@@ -67,3 +91,7 @@ div.fb-like.fb_iframe_widget {
     right: 20px;
     z-index: 999
 }
+
+
+
+

@@ -15,7 +15,7 @@ nav {
     -moz-box-shadow: $topbar-sticky-stuck-shadow;
     box-shadow: $topbar-sticky-stuck-shadow;
     overflow: hidden;
-    h4{
+    h4 {
         font-size: 0.8em;
         margin: 0px;
         padding: 0px;
@@ -28,17 +28,7 @@ nav {
         -webkit-margin-end: 0px;
         font-weight: bold;
     }
-    
 }
-
-.title-bar{
-    height: 4.5em;
-    
-  }
-
-  .menu-icon{
-    
-  }
 
 #header {
     height: 100%;
@@ -91,7 +81,3 @@ div.fb-like.fb_iframe_widget {
     right: 20px;
     z-index: 999
 }
-
-
-
-

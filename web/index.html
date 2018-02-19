@@ -29,16 +29,20 @@
     <div class="top-bar show-for-small-only" id="responsive-menu">
         <div class="top-bar-left">
             <ul class=" medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
-                <li class="has-submenu ">
-                    <li>
-                        <a href="#">One</a>
-                    </li>
-                    <li>
-                        <a href="#">Two</a>
-                    </li>
-                    <li>
-                        <a href="#">Three</a>
-                    </li>
+                <li>
+                    <a href="#quem-somos">Quem somos</a>
+                </li>
+                <li>
+                    <a href="#seja-um-doador">Seja um doador</a>
+                </li>
+                <li>
+                    <a href="#eventos">Eventos</a>
+                </li>
+                <li>
+                    <a href="#loja">Loja</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
                 </li>
             </ul>
         </div>
@@ -219,14 +223,16 @@
         $(document).foundation();
 
         $(window).on('load', function () {
-            $(window).on('changed.zf.mediaquery', function (event, newSize, oldSize) {
-                if (newSize === "large" || newSize === "medium") {
-                    skrollr.init({
-                        forceHeight: false,
-                        smoothScrolling: false
-                    });
-                }
-            });
+
+        });
+
+        $(window).on('changed.zf.mediaquery', function (event, newSize, oldSize) {
+            if (newSize === "large" || newSize === "medium") {
+                skrollr.init({
+                    forceHeight: false,
+                    smoothScrolling: false
+                });
+            }
         });
 
         (function (d, s, id) {

@@ -223,17 +223,28 @@
         $(document).foundation();
 
         $(window).on('load', function () {
-
-        });
-
-        $(window).on('changed.zf.mediaquery', function (event, newSize, oldSize) {
-            if (newSize === "large" || newSize === "medium") {
-                skrollr.init({
-                    forceHeight: false,
-                    smoothScrolling: false
-                });
+            if (Foundation.MediaQuery.atLeast('medium')) {
+                initSkroll();
             }
         });
+        $(window).on('changed.zf.mediaquery', function (event, newSize, oldSize) {
+            if (newSize === "large" || newSize === "medium") {
+                initSkroll();
+            } else {
+                destroySkroll();
+            }
+        });
+
+        function initSkroll() {
+            skrollr.init({
+                forceHeight: false,
+                smoothScrolling: false
+            });
+        }
+
+        function destroySkroll() {
+            skrollr.init().destroy();
+        }
 
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];

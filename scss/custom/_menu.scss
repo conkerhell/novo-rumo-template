@@ -92,6 +92,7 @@ $scrollhide-nav-transition-speed: 0.5s;
     -webkit-box-shadow: $topbar-sticky-stuck-shadow;
     -moz-box-shadow: $topbar-sticky-stuck-shadow;
     box-shadow: $topbar-sticky-stuck-shadow;
+    z-index: 1;
     &.hidden {
         transform: translateY(-100%);
     }

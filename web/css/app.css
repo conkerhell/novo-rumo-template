@@ -5240,7 +5240,8 @@ div.fb-like.fb_iframe_widget {
   transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
   -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
   .scrollhide-nav.hidden {
     transform: translateY(-100%); }
 

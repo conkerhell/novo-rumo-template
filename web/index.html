@@ -27,7 +27,7 @@
         </div>
         <div class="top-bar show-for-small-only" id="responsive-menu">
             <div class="top-bar-left">
-                <ul class=" medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
+                <ul class="medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
                     <li>
                         <a href="#quem-somos">Quem somos</a>
                     </li>
@@ -175,7 +175,6 @@
         </div>
     </div>
 
-
     <!-- FOOTER -->
     <div class="footer">
         <div class="grid-container">
@@ -255,6 +254,8 @@
             nav.toggleClass('hidden', scrollTop > prev);
             prev = scrollTop;
         });
+
+        $("#responsive-menu").css({"display": "none"});
 
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];

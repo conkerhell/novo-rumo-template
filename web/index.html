@@ -49,7 +49,7 @@
     </div>
 
     <!-- MENU -->
-    <nav data-50p="top:-4.25em;" data-80p="top:0px;">
+    <nav class="hide-for-small-only" data-50p="top:-4.25em;" data-80p="top:0px;">
         <div class="top-bar topbar-sticky-shrink">
             <div class="top-bar-center">
                 <ul class="menu" data-magellan>
@@ -227,7 +227,7 @@
             }
         });
         $(window).on('changed.zf.mediaquery', function (event, newSize, oldSize) {
-            if (newSize === "large" || newSize === "medium") {
+            if (newSize !== "small") {
                 initSkroll();
             } else {
                 destroySkroll();

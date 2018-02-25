@@ -82,9 +82,17 @@ div.fb-like.fb_iframe_widget {
     z-index: 999
 }
 
-.scrollable-nav {
+$scrollhide-nav-transition-speed: 0.5s;
+.scrollhide-nav {
     position: fixed;
     right: 0;
     top: 0;
     left: 0;
+    transition: transform $scrollhide-nav-transition-speed cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-box-shadow: $topbar-sticky-stuck-shadow;
+    -moz-box-shadow: $topbar-sticky-stuck-shadow;
+    box-shadow: $topbar-sticky-stuck-shadow;
+    &.hidden {
+        transform: translateY(-100%);
+    }
 }

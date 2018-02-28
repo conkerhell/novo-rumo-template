@@ -5312,3 +5312,29 @@ h2 {
 @media screen and (max-width: 39.9375em) {
   .quote {
     top: 0; } }
+
+.img-header {
+  width: 100%;
+  height: 100%; }
+
+.grid-container {
+  margin: 0 auto; }
+  .grid-container h2 {
+    padding-bottom: 35px; }
+
+.size {
+  max-width: 1024px; }
+
+.grid__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  position: relative;
+  box-sizing: border-box; }
+
+#open-text {
+  color: #00b9c1;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 100%; }

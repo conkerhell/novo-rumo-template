@@ -14,7 +14,10 @@ function swallowError(error) {
 }
 
 var webFolder = 'web';
-var webJavascriptFolder = 'web/js';
+var webJavascriptFolder = `${webFolder}/js`;
+
+var distFolder = 'dist';
+var webJavascriptFolder = `${distFolder}/js`;
 
 gulp.task('copy-js-files', function () {
   gulp.src([

@@ -52,9 +52,7 @@ h2 {
     }
 }
 
-.pink-content {
-    // background: url(/images/sparkles.gif), url(/images/bg-top.png);
-    background-image: url(/images/sparkles.gif);
+.pink-content, .pink-gradient-content {
     background-color: $secondary-color;
     background-position: top;
     background-repeat: repeat;
@@ -65,6 +63,14 @@ h2 {
     .yellow {
         color: #ffcf00;
     }
+}
+
+.pink-content {
+    background-image: url(/images/sparkles.gif);
+}
+
+.pink-gradient-content {
+    background: url(/images/sparkles.gif), url(/images/bg-top.png);
 }
 
 .quote {

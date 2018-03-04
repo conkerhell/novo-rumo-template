@@ -5290,8 +5290,7 @@ h2 {
   .white-content p {
     color: #00b9c1; }
 
-.pink-content {
-  background-image: url(/images/sparkles.gif);
+.pink-content, .pink-gradient-content {
   background-color: #f5928b;
   background-position: top;
   background-repeat: repeat;
@@ -5299,8 +5298,14 @@ h2 {
   -webkit-perspective: 1000;
   padding: 120px 0px 190px 0;
   color: #fff; }
-  .pink-content .yellow {
+  .pink-content .yellow, .pink-gradient-content .yellow {
     color: #ffcf00; }
+
+.pink-content {
+  background-image: url(/images/sparkles.gif); }
+
+.pink-gradient-content {
+  background: url(/images/sparkles.gif), url(/images/bg-top.png); }
 
 .quote {
   position: relative;
@@ -5321,20 +5326,3 @@ h2 {
   margin: 0 auto; }
   .grid-container h2 {
     padding-bottom: 35px; }
-
-.size {
-  max-width: 1024px; }
-
-.grid__item {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  position: relative;
-  box-sizing: border-box; }
-
-#open-text {
-  color: #00b9c1;
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  width: 100%; }

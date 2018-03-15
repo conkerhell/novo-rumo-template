@@ -5301,6 +5301,9 @@ h2 {
   .pink-content .yellow, .pink-gradient-content .yellow {
     color: #ffcf00; }
 
+.stripe {
+  padding: 0px 0px 90px 0; }
+
 .pink-content {
   background-image: url(/images/sparkles.gif); }
 

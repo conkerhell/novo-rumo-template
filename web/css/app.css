@@ -5195,7 +5195,7 @@ nav {
   -webkit-perspective: 1000; }
 
 .spirit {
-  background: url("/images/Banner_v1.png") center center no-repeat;
+  background: url("/images/Banner_v2.png") center center no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
@@ -5288,7 +5288,9 @@ h2 {
     padding-top: 15px;
     line-height: 31px; }
   .white-content p {
-    color: #A62E3C; }
+    color: #FFD380;
+    font-size: 18px;
+    line-height: 25px; }
 
 .pink-content, .pink-gradient-content {
   background-color: #FFD380;
@@ -5308,7 +5310,7 @@ h2 {
   background-image: url(/images/sparkles.gif); }
 
 .pink-gradient-content {
-  background: url(/images/sparkles.gif), url(/images/bg-top.png); }
+  background: url(/images/sparkles.gif), url(/images/bg-top-v2.png); }
 
 .quote {
   position: relative;

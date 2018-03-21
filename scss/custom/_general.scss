@@ -48,7 +48,9 @@ h2 {
         line-height: 31px;
     }
     p {
-        color: $primary-color;
+        color: $secondary-color;
+        font-size: 18px;
+        line-height: 25px;
     }
 }
 
@@ -74,7 +76,7 @@ h2 {
 }
 
 .pink-gradient-content {
-    background: url(/images/sparkles.gif), url(/images/bg-top.png);
+    background: url(/images/sparkles.gif), url(/images/bg-top-v2.png);
 }
 
 .quote {

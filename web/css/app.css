@@ -3414,7 +3414,7 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #FCC45E; }
+    color: #ffae00; }
   a img {
     border: 0; }
 
@@ -3685,7 +3685,7 @@ label {
   font-size: 0.9375rem;
   font-weight: normal;
   line-height: 1.8;
-  color: #FCC45E; }
+  color: #ffae00; }
   label.middle {
     margin: 0 0 1rem;
     padding: 0.5625rem 0; }
@@ -3864,10 +3864,10 @@ select {
       background-color: #bd3444;
       color: #fefefe; }
   .button.secondary {
-    background-color: #FCC45E;
+    background-color: #ffae00;
     color: #0a0a0a; }
     .button.secondary:hover, .button.secondary:focus {
-      background-color: #fcca6e;
+      background-color: #ffb61a;
       color: #0a0a0a; }
   .button.success {
     background-color: #3adb76;
@@ -3903,7 +3903,7 @@ select {
       opacity: 0.25;
       cursor: not-allowed; }
       .button.disabled.secondary, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-        background-color: #FCC45E;
+        background-color: #ffae00;
         color: #0a0a0a; }
     .button.disabled.success, .button[disabled].success {
       opacity: 0.25;
@@ -3946,14 +3946,14 @@ select {
           border: 1px solid #A62E3C;
           color: #A62E3C; }
     .button.hollow.secondary {
-      border: 1px solid #FCC45E;
-      color: #FCC45E; }
+      border: 1px solid #ffae00;
+      color: #ffae00; }
       .button.hollow.secondary:hover, .button.hollow.secondary:focus {
-        border-color: #fdd68e;
-        color: #fdd68e; }
+        border-color: #ffc64d;
+        color: #ffc64d; }
         .button.hollow.secondary:hover.disabled, .button.hollow.secondary:hover[disabled], .button.hollow.secondary:focus.disabled, .button.hollow.secondary:focus[disabled] {
-          border: 1px solid #FCC45E;
-          color: #FCC45E; }
+          border: 1px solid #ffae00;
+          color: #ffae00; }
     .button.hollow.success {
       border: 1px solid #3adb76;
       color: #3adb76; }
@@ -4008,14 +4008,14 @@ select {
       .button.clear.primary, .button.clear.primary.disabled, .button.clear.primary[disabled], .button.clear.primary:hover, .button.clear.primary:hover.disabled, .button.clear.primary:hover[disabled], .button.clear.primary:focus, .button.clear.primary:focus.disabled, .button.clear.primary:focus[disabled] {
         border-color: transparent; }
     .button.clear.secondary {
-      border: 1px solid #FCC45E;
-      color: #FCC45E; }
+      border: 1px solid #ffae00;
+      color: #ffae00; }
       .button.clear.secondary:hover, .button.clear.secondary:focus {
-        border-color: #fdd68e;
-        color: #fdd68e; }
+        border-color: #ffc64d;
+        color: #ffc64d; }
         .button.clear.secondary:hover.disabled, .button.clear.secondary:hover[disabled], .button.clear.secondary:focus.disabled, .button.clear.secondary:focus[disabled] {
-          border: 1px solid #FCC45E;
-          color: #FCC45E; }
+          border: 1px solid #ffae00;
+          color: #ffae00; }
       .button.clear.secondary, .button.clear.secondary.disabled, .button.clear.secondary[disabled], .button.clear.secondary:hover, .button.clear.secondary:hover.disabled, .button.clear.secondary:hover[disabled], .button.clear.secondary:focus, .button.clear.secondary:focus.disabled, .button.clear.secondary:focus[disabled] {
         border-color: transparent; }
     .button.clear.success {
@@ -4070,7 +4070,7 @@ select {
   .button.dropdown.hollow.primary::after {
     border-top-color: #A62E3C; }
   .button.dropdown.hollow.secondary::after {
-    border-top-color: #FCC45E; }
+    border-top-color: #ffae00; }
   .button.dropdown.hollow.success::after {
     border-top-color: #3adb76; }
   .button.dropdown.hollow.warning::after {
@@ -4252,10 +4252,10 @@ a.button:hover, a.button:focus {
       background-color: #bd3444;
       color: #fefefe; }
   .button-group.secondary .button {
-    background-color: #FCC45E;
+    background-color: #ffae00;
     color: #0a0a0a; }
     .button-group.secondary .button:hover, .button-group.secondary .button:focus {
-      background-color: #fcca6e;
+      background-color: #ffb61a;
       color: #0a0a0a; }
   .button-group.success .button {
     background-color: #3adb76;
@@ -4507,7 +4507,7 @@ a.button:hover, a.button:focus {
     background: #A62E3C;
     color: #fefefe; }
   .label.secondary {
-    background: #FCC45E;
+    background: #ffae00;
     color: #0a0a0a; }
   .label.success {
     background: #3adb76;
@@ -5111,7 +5111,7 @@ html.is-reveal-open body {
   background: url(/images/sparkles.gif);
   background-position: top;
   background-repeat: repeat;
-  background-color: #FCC45E;
+  background-color: #ffae00;
   color: #fff;
   padding-top: 40px;
   padding-bottom: 60px; }
@@ -5283,17 +5283,17 @@ h2 {
   .white-content h2,
   .white-content h3,
   .white-content h4 {
-    color: #FCC45E; }
+    color: #ffae00; }
   .white-content h4 {
     padding-top: 15px;
     line-height: 31px; }
   .white-content p {
-    color: #FCC45E;
+    color: #ffae00;
     font-size: 18px;
     line-height: 25px; }
 
 .pink-content, .pink-gradient-content {
-  background-color: #FCC45E;
+  background-color: #ffae00;
   background-position: top;
   background-repeat: repeat;
   -webkit-backface-visibility: hidden;

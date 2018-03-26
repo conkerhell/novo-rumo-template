@@ -38,6 +38,12 @@ h2 {
 .white-content {
     padding: 120px 0px 190px 0;
     background: url(/images/sparkles-white.png);
+    h1{
+        margin-bottom: 10rem;
+        color: $success-color;
+        text-align: center;
+    text-transform: uppercase;
+    }
     h2,
     h3,
     h4 {
@@ -119,14 +125,6 @@ h2 {
     margin: 50px 0;
 }
 
-h1 {
-    color: #474544;
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 7px;
-    text-align: center;
-    text-transform: uppercase;
-}
 
 .underline {
     border-bottom: solid 2px #474544;
@@ -148,7 +146,7 @@ h1 {
 }
 
 .emails {
-	float: right;
+	float: left;
     width: 45%;
     p{
         color: $warning-color;
@@ -156,19 +154,15 @@ h1 {
 }
 
 
-
-.telefone{
-    p{
-        color: $warning-color;
-    }
+.mapa {
+	float: right;
+    width: 45%;
+   
 }
 
-
 h5 {
-	background: none;
-    border: none;
-	border-bottom: solid 2px #474544;
-	color: #474544;
+	
+	color: $success-color;
     
     
 }
@@ -176,6 +170,13 @@ h5 {
 .name {
 	float: left;
     width: 45%;
+    p{
+        color: $warning-color;
+    }
+}
+
+.telefone {
+	
     p{
         color: $warning-color;
     }

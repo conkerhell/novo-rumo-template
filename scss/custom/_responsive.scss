@@ -1,0 +1,10 @@
+
+@include breakpoint(small only) {
+    .quote {
+        top: 0;
+    }
+
+    .footer {
+        padding-bottom: 20px;
+    }
+}

@@ -112,3 +112,23 @@ h2 {
         padding-bottom: 35px;
     }
 }
+
+.table,
+.table a {
+    color: $secondary-color;
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
+
+.table td {
+    border: 0;
+    padding: 0 20px 5px 0;
+    margin: 0;
+}
+
+.table td,
+.table th {
+    vertical-align: top;
+}

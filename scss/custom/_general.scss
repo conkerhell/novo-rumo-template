@@ -38,11 +38,11 @@ h2 {
 .white-content {
     padding: 120px 0px 190px 0;
     background: url(/images/sparkles-white.png);
-    h1{
+    h1 {
         margin-bottom: 10rem;
         color: $secondary-color;
         text-align: center;
-    text-transform: uppercase;
+        text-transform: uppercase;
     }
     h2,
     h3,
@@ -60,7 +60,8 @@ h2 {
     }
 }
 
-.pink-content, .pink-gradient-content {
+.pink-content,
+.pink-gradient-content {
     background-color: $secondary-color;
     background-position: top;
     background-repeat: repeat;
@@ -110,28 +111,4 @@ h2 {
     h2 {
         padding-bottom: 35px;
     }
-}
-
-.mapa {
-   float: right;
-    width: 50%;
-    position: relative;
-    bottom: 500px;
-    left: 100px;
-  
-   
-
-}
-
-.linha-vertical {
-    height: 600px;/*Altura da linha*/
-    border-left: 3px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-    margin-left: 550px;
-    color: $secondary-color;
-  }
-
-.contato-info{
-    position: relative;
-    bottom: 450px;
-    font-weight: bolder;
 }

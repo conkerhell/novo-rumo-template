@@ -5297,7 +5297,8 @@ h2 {
     font-size: 18px;
     line-height: 25px; }
 
-.pink-content, .pink-gradient-content {
+.pink-content,
+.pink-gradient-content {
   background-color: #ffae00;
   background-position: top;
   background-repeat: repeat;
@@ -5305,7 +5306,8 @@ h2 {
   -webkit-perspective: 1000;
   padding: 120px 0px 190px 0;
   color: #fff; }
-  .pink-content .title, .pink-gradient-content .title {
+  .pink-content .title,
+  .pink-gradient-content .title {
     color: #A62E3C; }
 
 .stripe {
@@ -5336,23 +5338,3 @@ h2 {
   margin: 0 auto; }
   .grid-container h2 {
     padding-bottom: 35px; }
-
-.mapa {
-  float: right;
-  width: 50%;
-  position: relative;
-  bottom: 500px;
-  left: 100px; }
-
-.linha-vertical {
-  height: 600px;
-  /*Altura da linha*/
-  border-left: 3px solid;
-  /* Adiciona borda esquerda na div como ser fosse uma linha.*/
-  margin-left: 550px;
-  color: #ffae00; }
-
-.contato-info {
-  position: relative;
-  bottom: 450px;
-  font-weight: bolder; }

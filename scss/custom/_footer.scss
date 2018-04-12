@@ -19,7 +19,13 @@
         margin-bottom: 0;
     }
     .info {
-      padding-top: 45px;
+        padding-top: 45px;
+    }
+    a {
+        color: $white;
+    }
+    a:hover {
+        text-decoration: underline;
     }
 }
 

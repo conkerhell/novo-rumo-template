@@ -5123,6 +5123,10 @@ html.is-reveal-open body {
     margin-bottom: 0; }
   .footer .info {
     padding-top: 45px; }
+  .footer a {
+    color: #fefefe; }
+  .footer a:hover {
+    text-decoration: underline; }
 
 .facebook {
   position: relative;
@@ -5353,6 +5357,12 @@ h2 {
 
 @media screen and (max-width: 39.9375em) {
   .quote {
-    top: 0; }
+    top: 0;
+    padding-bottom: 20px; }
   .footer {
-    padding-bottom: 20px; } }
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .responsive-bottom-space {
+    padding-bottom: 20px; }
+  .footer .info {
+    padding-top: 0px; } }

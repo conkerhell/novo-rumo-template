@@ -5365,4 +5365,6 @@ h2 {
   .responsive-bottom-space {
     padding-bottom: 50px; }
   .footer .info {
-    padding-top: 0px; } }
+    padding-top: 0px; }
+  .stripe {
+    padding: 0; } }

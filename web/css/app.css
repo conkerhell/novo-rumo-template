@@ -5315,13 +5315,16 @@ h2 {
     color: #A62E3C; }
 
 .stripe {
-  padding: 0px 0px 90px 0; }
+  padding: 60px 0px 90px 0; }
 
 .pink-content {
   background-image: url(/images/sparkles.gif); }
 
 .pink-gradient-content {
   background: url(/images/sparkles.gif), url(/images/bg-top-v2.png); }
+
+.no-bottom-padding {
+  padding: 90px 0px 120px 0; }
 
 .quote {
   position: relative;

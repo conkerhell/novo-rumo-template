@@ -5230,6 +5230,9 @@ nav {
     -webkit-margin-end: 0px;
     font-weight: bold; }
 
+.no-top {
+  top: 0px; }
+
 #header {
   height: 100%;
   background-color: #000;
@@ -5297,6 +5300,9 @@ body {
   text-align: center;
   margin-top: 5rem;
   margin-bottom: 5rem; }
+
+.content {
+  margin-top: 6.25em; }
 
 h1,
 h2,

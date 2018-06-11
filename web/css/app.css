@@ -5230,9 +5230,6 @@ nav {
     -webkit-margin-end: 0px;
     font-weight: bold; }
 
-.no-top {
-  top: 0px; }
-
 #header {
   height: 100%;
   background-color: #000;
@@ -5415,3 +5412,6 @@ h2 {
     padding-top: 0px; }
   .stripe {
     padding: 0; } }
+
+.navbar {
+  background-color: #A62E3C; }

@@ -3461,12 +3461,12 @@ blockquote {
   border-left: 1px solid #cacaca; }
   blockquote, blockquote p {
     line-height: 1.6;
-    color: #8a8a8a; }
+    color: #666; }
 
 cite {
   display: block;
   font-size: 0.8125rem;
-  color: #8a8a8a; }
+  color: #666; }
   cite:before {
     content: "— "; }
 
@@ -3498,7 +3498,7 @@ kbd {
   margin-bottom: 0.5rem;
   font-weight: normal;
   line-height: 1.4;
-  color: #8a8a8a; }
+  color: #666; }
 
 .lead {
   font-size: 100%;
@@ -3584,7 +3584,7 @@ ul.no-bullet, ol.no-bullet {
     content: " (" attr(title) ")"; }
   pre,
   blockquote {
-    border: 1px solid #8a8a8a;
+    border: 1px solid #666;
     page-break-inside: avoid; }
   thead {
     display: table-header-group; }
@@ -3628,7 +3628,7 @@ textarea {
   [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
   textarea:focus {
     outline: none;
-    border: 1px solid #8a8a8a;
+    border: 1px solid #666;
     background-color: #fefefe;
     box-shadow: 0 #cacaca;
     transition: border-color 0.25s ease-in-out; }
@@ -3685,7 +3685,7 @@ label {
   font-size: 0.9375rem;
   font-weight: normal;
   line-height: 1.8;
-  color: #ffae00; }
+  color: #666; }
   label.middle {
     margin: 0 0 1rem;
     padding: 0.5625rem 0; }
@@ -3781,7 +3781,7 @@ select {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28102, 102, 102%29'></polygon></svg>");
   background-origin: content-box;
   background-position: right -1rem center;
   background-repeat: no-repeat;
@@ -3793,7 +3793,7 @@ select {
       background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrEkckNgDAMBBfRkEt0ObRBBdsGXUDgmQfK4XhH2m8czQAAy27R3tsw4Qfe2x8uOO6oYLb6GlOor3GF+swURAOmUJ+RwtEJs9WvTGEYxBXqI1MQAZhCfUQKRzDMVj+TwrAIV6jvSUEkYAr1LSkcyTBb/V+KYfX7xAeusq3sLDtGH3kEGACPWIflNZfhRQAAAABJRU5ErkJggg=="); } }
   select:focus {
     outline: none;
-    border: 1px solid #8a8a8a;
+    border: 1px solid #666;
     background-color: #fefefe;
     box-shadow: 0 #cacaca;
     transition: border-color 0.25s ease-in-out; }
@@ -4336,7 +4336,7 @@ a.button:hover, a.button:focus {
 
 .close-button {
   position: absolute;
-  color: #8a8a8a;
+  color: #666;
   cursor: pointer; }
   [data-whatinput='mouse'] .close-button {
     outline: 0; }
@@ -4528,8 +4528,8 @@ a.button:hover, a.button:focus {
     box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a;
     content: ''; }
   .menu-icon.dark:hover::after {
-    background: #8a8a8a;
-    box-shadow: 0 7px 0 #8a8a8a, 0 14px 0 #8a8a8a; }
+    background: #666;
+    box-shadow: 0 7px 0 #666, 0 14px 0 #666; }
 
 .label {
   display: inline-block;
@@ -5249,6 +5249,9 @@ nav {
   -webkit-perspective: 1000;
   overflow: hidden; }
 
+.image-header {
+  display: none; }
+
 .top-bar,
 .top-bar ul {
   background-color: #fff; }
@@ -5414,4 +5417,8 @@ h2 {
   .footer .info {
     padding-top: 0px; }
   .stripe {
-    padding: 0; } }
+    padding: 0; }
+  #header {
+    height: auto; }
+  .image-header {
+    display: block; } }

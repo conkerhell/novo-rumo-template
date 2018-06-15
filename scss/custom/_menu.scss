@@ -53,6 +53,10 @@ nav {
     overflow: hidden
 }
 
+.image-header {
+    display: none;
+}
+
 .top-bar,
 .top-bar ul {
     background-color: $topbar-sticky-shrink-bg;

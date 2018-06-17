@@ -4303,26 +4303,26 @@ a.button:hover, a.button:focus {
   border: 1px solid rgba(10, 10, 10, 0.25);
   border-radius: 0;
   background-color: white;
-  color: #0a0a0a; }
+  color: #666; }
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
     background-color: #f5dcdf;
-    color: #0a0a0a; }
+    color: #666; }
   .callout.secondary {
     background-color: #fff3d9;
-    color: #0a0a0a; }
+    color: #666; }
   .callout.success {
     background-color: #e1faea;
-    color: #0a0a0a; }
+    color: #666; }
   .callout.warning {
     background-color: #fff3d9;
-    color: #0a0a0a; }
+    color: #666; }
   .callout.alert {
     background-color: #f7e4e1;
-    color: #0a0a0a; }
+    color: #666; }
   .callout.small {
     padding-top: 0.5rem;
     padding-right: 0.5rem;

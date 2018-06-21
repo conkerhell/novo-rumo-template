@@ -1,41 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Associação Novo Rumo Atibaia</title>
     <link rel="stylesheet" href="/css/app.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet" async>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet" async />
     <style>
         header {
             background-color: #ffd98f;
         }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+
+        #main {
+            margin: 2rem auto 0;
+        }
+
+        .divisor {
+            margin: 2rem 0;
+            text-align: center;
+            background-image: -webkit-linear-gradient(top,transparent 10px,#e3e3e3 0,#e3e3e3 12px,transparent 0);
+            background-image: -o-linear-gradient(top,transparent 10px,#e3e3e3 10px,#e3e3e3 12px,transparent 12px);
+            background-image: linear-gradient(180deg,transparent 10px,#e3e3e3 0,#e3e3e3 12px,transparent 0);
+        }
+
+            .divisor > span {
+                display: inline-block;
+                background-color: #fff;
+                padding: 0 10px;
+                text-transform: none;
+            }
+
+        .text-middle {
+            padding: 8px;
+        }
+
+        .callout-text-field {
+            padding: 15px 0 15px 55px;
+        }
+
+        .radio-callout {
+            padding: 0;
+            height: 70px;
+        }
+
+            .radio-callout:before {
+                content: '';
+                position: absolute;
+                border-left-color: #f1f1f1;
+                border-left-width: 6px;
+                border-left-style: solid;
+                height: 100%;
+                width: 45px;
+                top: 0;
+                left: 0;
+                background: #f1f1f1;
+            }
+
+            .radio-callout [type=radio] {
+                position: absolute;
+                margin: 0;
+                top: 50%;
+                margin-top: -8px;
+                margin-left: 17px;
+            }
+
+            .radio-callout label {
+                width: 100%;
+                padding: 20px 0 20px 55px;
+                margin: 0;
+                position: relative;
+                height: 100%;
+            }
+
+        .value-field {
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        legend {
+            color: #666;
+        }
+
+        .callout.alert {
+            background-color: #f7e4e1;
+        }
+
+        .alert-callout-border.alert {
+            border-left-color: #cc4b37;
+        }
+
+        .alert-callout-border {
+            width: 100%;
+            padding: 1.3rem;
+            border-left-width: 0.3125rem;
+            border-left-color: #cacaca;
+        }
+
+        .field {
+            margin: 0 0 1.7rem;
+        }
+
+            .field input {
+                margin: 0;
+            }
+
+            .field textarea {
+                margin: 0;
+            }
+
+        .field-validation-error {
+            position: absolute;
+            color: #cc4b37;
+            font-size: 0.75rem;
+        }
+
+        .input-validation-error {
+            background-color: #f7e4e1;
+        }
+
+            .input-validation-error:focus {
+                background-color: #f7e4e1;
+                box-shadow: none;
+            }
     </style>
 </head>
-
 <body>
-    <header data-role="navigation">
+    <header role="navigation">
         <div class="grid-container">
             <div class="small-3">
                 <h1>
-                    <a href="/">
+                    <a href="/" aria-label="Home">
                         <img src="http://via.placeholder.com/200x100" alt="Logo Novo Rumo">
                     </a>
                 </h1>
             </div>
             <div class="small-9">
-                <!-- Progresso -->
+
             </div>
         </div>
     </header>
 
-    <main class="grid-x">
-        <!-- RenderPage -->
+    <main class="small-12 medium-6 grid-container fluid" role="main" id="main">
+        <div class="grid-margin-x">
+            <div class="text-center">
+                <svg class="circular">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-color="#f00" stroke-miterlimit="10" />
+            
+                </svg>
+                <svg class="suc">
+                    <path class="checkmark__check" fill="none" d="M10.7,20.4l5.3,5.3l12.4-12.5"></path>
+                </svg>
+            </div>
+        </div>
     </main>
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/foundation.min.js"></script>
 </body>
-
 </html>

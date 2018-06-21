@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,17 +27,17 @@
         .divisor {
             margin: 2rem 0;
             text-align: center;
-            background-image: -webkit-linear-gradient(top,transparent 10px,#e3e3e3 0,#e3e3e3 12px,transparent 0);
-            background-image: -o-linear-gradient(top,transparent 10px,#e3e3e3 10px,#e3e3e3 12px,transparent 12px);
-            background-image: linear-gradient(180deg,transparent 10px,#e3e3e3 0,#e3e3e3 12px,transparent 0);
+            background-image: -webkit-linear-gradient(top, transparent 10px, #e3e3e3 0, #e3e3e3 12px, transparent 0);
+            background-image: -o-linear-gradient(top, transparent 10px, #e3e3e3 10px, #e3e3e3 12px, transparent 12px);
+            background-image: linear-gradient(180deg, transparent 10px, #e3e3e3 0, #e3e3e3 12px, transparent 0);
         }
 
-            .divisor > span {
-                display: inline-block;
-                background-color: #fff;
-                padding: 0 10px;
-                text-transform: none;
-            }
+        .divisor>span {
+            display: inline-block;
+            background-color: #fff;
+            padding: 0 10px;
+            text-transform: none;
+        }
 
         .text-middle {
             padding: 8px;
@@ -51,34 +52,34 @@
             height: 70px;
         }
 
-            .radio-callout:before {
-                content: '';
-                position: absolute;
-                border-left-color: #f1f1f1;
-                border-left-width: 6px;
-                border-left-style: solid;
-                height: 100%;
-                width: 45px;
-                top: 0;
-                left: 0;
-                background: #f1f1f1;
-            }
+        .radio-callout:before {
+            content: '';
+            position: absolute;
+            border-left-color: #f1f1f1;
+            border-left-width: 6px;
+            border-left-style: solid;
+            height: 100%;
+            width: 45px;
+            top: 0;
+            left: 0;
+            background: #f1f1f1;
+        }
 
-            .radio-callout [type=radio] {
-                position: absolute;
-                margin: 0;
-                top: 50%;
-                margin-top: -8px;
-                margin-left: 17px;
-            }
+        .radio-callout [type=radio] {
+            position: absolute;
+            margin: 0;
+            top: 50%;
+            margin-top: -8px;
+            margin-left: 17px;
+        }
 
-            .radio-callout label {
-                width: 100%;
-                padding: 20px 0 20px 55px;
-                margin: 0;
-                position: relative;
-                height: 100%;
-            }
+        .radio-callout label {
+            width: 100%;
+            padding: 20px 0 20px 55px;
+            margin: 0;
+            position: relative;
+            height: 100%;
+        }
 
         .value-field {
             text-align: right;
@@ -108,13 +109,13 @@
             margin: 0 0 1.7rem;
         }
 
-            .field input {
-                margin: 0;
-            }
+        .field input {
+            margin: 0;
+        }
 
-            .field textarea {
-                margin: 0;
-            }
+        .field textarea {
+            margin: 0;
+        }
 
         .field-validation-error {
             position: absolute;
@@ -126,12 +127,80 @@
             background-color: #f7e4e1;
         }
 
-            .input-validation-error:focus {
-                background-color: #f7e4e1;
-                box-shadow: none;
+        .input-validation-error:focus {
+            background-color: #f7e4e1;
+            box-shadow: none;
+        }
+
+        .loader {
+            position: relative;
+            margin: 0px auto;
+            width: 100px;
+            height: 100px;
+            zoom: $zoom;
+        }
+
+        .circular {
+            animation: rotate 2s linear forwards;
+            width: 100px;
+            height: 100px;
+            position: relative
+        }
+
+        .path {
+            stroke: #007aff;
+            stroke-dasharray: 1, 200;
+            stroke-dashoffset: 0;
+            animation: dash 1.5s ease-in-out forwards,
+            color 6s ease-in-out infinite;
+            stroke-linecap: round;
+        }
+
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
             }
+
+            100% {
+                stroke-dasharray: 150, 200;
+                stroke-dashoffset: 10;
+            }
+
+        }
+
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+
+        .checkmark__check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+
+            animation: stroke 0.5s cubic-bezier(0.65, 0, 0.45, 1) 1.5s forwards;
+        }
+
+        @keyframes stroke {
+            100% {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        .suc {
+            stroke: #007aff;
+            stroke-width: 2;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 40px;
+            height: 40px;
+        }
     </style>
 </head>
+
 <body>
     <header role="navigation">
         <div class="grid-container">
@@ -151,13 +220,15 @@
     <main class="small-12 medium-6 grid-container fluid" role="main" id="main">
         <div class="grid-margin-x">
             <div class="text-center">
-                <svg class="circular">
-                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-color="#f00" stroke-miterlimit="10" />
-            
-                </svg>
-                <svg class="suc">
-                    <path class="checkmark__check" fill="none" d="M10.7,20.4l5.3,5.3l12.4-12.5"></path>
-                </svg>
+                <div class="loader">
+                    <svg class="circular">
+                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-color="#f00" stroke-miterlimit="10" />
+
+                    </svg>
+                    <svg class="suc">
+                        <path class="checkmark__check" fill="none" d="M10.7,20.4l5.3,5.3l12.4-12.5"></path>
+                    </svg>
+                </div>
             </div>
         </div>
     </main>
@@ -165,4 +236,5 @@
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/foundation.min.js"></script>
 </body>
+
 </html>

@@ -2,9 +2,23 @@ Associação Novo Rumo
 ===============
 Manual de utilização
 
-1. [Login](#login)
-2. [Páginas](#páginas)
+1. [Como começar](#como-começar)
+2. [Alterando as páginas](#alterando-as-páginas)
 
-## Login
+## Como começar
 
-## Páginas
+Para começar a utilizar a página administrativa, acesse o link abaixo e digite o email e senha
+ - www.novorumoatibaia.com.br/admin
+
+## Alterando as páginas
+
+Os conteudos que são possíveis de alterar são:
+ - [Sobre](#sobre)
+ - [Eventos](#eventos)
+ - [Dia-a-dia](#dia-a-dia)
+ 
+### Sobre
+
+### Eventos
+
+### Dia-a-dia

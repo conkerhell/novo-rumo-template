@@ -19,13 +19,16 @@ Os conteudos que são possíveis de alterar são:
  - [Contato](#contato)
  - [Doe-agora](#doe-agora)
  
+ ![Main-Menu](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Menu.png)
+ 
  
 ### Sobre
 Na opção Sobre você poderá visualizar o conteúdo atual que está sendo exibido em sua página e editar todas as informações sobre a __Associação Novo Rumo__ :bird:
 
-Para isto, clilcar em __Páginas__ no qual irá aparecer uma lista do menu conforme imagem abaixo:
+Para isto, clicar em __Páginas__ e __Politicas de privacidade__:
 
-![Main-Menu](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Menu.png)
+![Main-Policy](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Policy.png)
+
 
 
 ## Eventos

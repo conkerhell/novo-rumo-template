@@ -23,6 +23,9 @@ Os conteudos que são possíveis de alterar são:
  
  
 ### :house: Sobre :house:
+
+Tela Sobre:
+
 Na opção Sobre você poderá visualizar o conteúdo atual que está sendo exibido em sua página e editar todas as informações sobre a __Associação Novo Rumo__ :bird:
 
 Para isto, clicar em __Páginas__ e __Politicas de privacidade__:
@@ -31,7 +34,7 @@ Para isto, clicar em __Páginas__ e __Politicas de privacidade__:
 
 Logo de início, você terá a visão do conteúdo cadastrado na página **Sobre** e poderá alterar o contéudo. Para efetuar a alteração clique no botão *Alterar* que está no canto superior direito da tela.
 
-A tela de alteração irá aparecer:
+A tela de alteração Sobre:
 
 ![Edit-About](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-About.png)
 
@@ -80,6 +83,7 @@ Na tela de cadastro do **Dia-a-Dia**, clique no botão _Adicionar Capa_ que uma 
 ### :phone:	 Contato :phone:	
 
 Tela Contato:
+
 Na tela de contato, será colocado todas as informações de contato: E-mail, telefone, celular e endereço. Caso o usuário deseje contactar a instuição ou enviar algo.
 
 ![Main-Contact](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Contact.png)

@@ -80,8 +80,8 @@ Na tela de cadastro do **Dia-a-Dia**, clique no botão _Adicionar Capa_ que uma 
 
 ![Edit-Day](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Day.png)
 
-### :phone:	 Contato :phone:	
-
+### 	 Contato 
+	
 Tela Contato:
 
 Na tela de contato, será colocado todas as informações de contato: E-mail, telefone, celular e endereço. Caso o usuário deseje contactar a instuição ou enviar algo.

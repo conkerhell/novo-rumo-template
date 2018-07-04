@@ -80,7 +80,7 @@ Na tela de cadastro do **Dia-a-Dia**, clique no botão _Adicionar Capa_ que uma 
 
 ![Edit-Day](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Day.png)
 
-### 	 Contato 
+### Contato :phone:
 	
 Tela Contato:
 

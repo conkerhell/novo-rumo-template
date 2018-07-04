@@ -22,9 +22,9 @@ Os conteudos que são possíveis de alterar são:
  ![Main-Menu](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Menu.png)
  
  
-### :house: Sobre :house:
+###  Sobre 
 
-Tela Sobre:
+:house: Tela Sobre: :house:
 
 Na opção Sobre você poderá visualizar o conteúdo atual que está sendo exibido em sua página e editar todas as informações sobre a __Associação Novo Rumo__ :bird:
 
@@ -42,9 +42,9 @@ Nesta tela você poderá alterar o título, imagens e descrição da pagina __So
 
 Após cadastro será possível Alterar ou deletar o conteúdo.
 
-## :sunglasses: Eventos :sunglasses:
+##  Eventos 
 
-Tela de Eventos:
+:sunglasses: Tela de Eventos: :sunglasses:
 
 ![Main-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Event.png)
 
@@ -68,9 +68,9 @@ Após evento cadastrado, sera habilitado a opção de efetuar uma atualização 
 ![Update-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Update-Event.png)
 
 
-### :sun_with_face: Dia-a-dia :sun_with_face:
+###  Dia-a-dia 
 
-Tela Dia-a-Dia:
+ :sun_with_face: Tela Dia-a-Dia: :sun_with_face:
 
 Nesta página, poderá ser armazenado todas as imagens referente as atividades que __Associação Novo Rumo__ :bird: realizar:
 
@@ -80,9 +80,9 @@ Na tela de cadastro do **Dia-a-Dia**, clique no botão _Adicionar Capa_ que uma 
 
 ![Edit-Day](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Day.png)
 
-### Contato :phone:
+### Contato 
 	
-Tela Contato:
+:phone: Tela Contato :phone:
 
 Na tela de contato, será colocado todas as informações de contato: E-mail, telefone, celular e endereço. Caso o usuário deseje contactar a instuição ou enviar algo.
 

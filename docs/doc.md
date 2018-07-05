@@ -17,10 +17,10 @@ Os conteudos que são possíveis de alterar são:
  - [Eventos](#eventos)
  - [Dia-a-dia](#dia-a-dia)
  - [Contato](#contato)
- - [Doe-agora](#doe-agora)
+ - [Politicas](#politicas)
+ - [Terrmos](#termos)
  
- ![Main-Menu](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Menu.png)
- 
+ ![Main-Menu](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Menu.png) 
  
 ###  Sobre 
 
@@ -36,11 +36,11 @@ Logo de início, você terá a visão do conteúdo cadastrado na página **Sobre
 
 A tela de alteração Sobre:
 
-![Edit-About](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-About.png)
-
 Nesta tela você poderá alterar o título, imagens e descrição da pagina __Sobre__. Após altereção feita, clicar no botão _Salvar_
 
 Após cadastro será possível Alterar ou deletar o conteúdo.
+
+![Edit-About](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-About.png)
 
 ##  Eventos 
 
@@ -66,7 +66,6 @@ Após evento cadastrado, sera habilitado a opção de efetuar uma atualização 
 
 
 ![Update-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Update-Event.png)
-
 
 ###  Dia-a-dia 
 
@@ -103,6 +102,31 @@ Feito isto, clique em _Salvar_
 ![Edit-Contact](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Contact.png)
 
 
-### Doe-Agora
+### Politicas 
+
+:lock: Tela de Politica de Privacidade:  :lock:
+
+Na pagina de Politicas ficará armazenado todo conteúdo de politica de privacidade do site conforme imagem:
+
+![Main-Policy](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Policy.png)
+
+Tela de cadastro Politicas de Privacidade:
+
+Nesta sessão você poderá editar o título e descrição da politica quando necessário. Clique no botão _Alterar_ no canto direito superior:
+
+![Edit-Policy](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Policy.png)
 
 
+### Termos 
+
+:pencil2: Tela Termos de Uso: :pencil2:
+
+Nesta tela você terá visão de todo conteúdo referente ao termo de uso do site. Para efetuar sua edição clique no botão _Alterar_ que esta no canto direito superior:
+
+![Main-Terms](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Terms.png)
+
+Tela de cadastro Termo de Uso:
+
+Aqui será permitido a edição deste conteúdo dos campos título e descrição. Após edição clique no botão  _Salvar_:
+
+![Edit-Terms](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Terms.png)

@@ -12,7 +12,8 @@ Para começar a utilizar a página administrativa, acesse o link abaixo e digite
 
 ## Alterando as páginas
 
-Os conteudos que são possíveis de alterar são:
+Abaixo segue a lista de páginas para navegação:
+
  - [Sobre](#sobre)
  - [Eventos](#eventos)
  - [Dia-a-dia](#dia-a-dia)
@@ -20,58 +21,62 @@ Os conteudos que são possíveis de alterar são:
  - [Politicas](#politicas)
  - [Terrmos](#termos)
  
+ **Tela do mrnu principal**
+ 
  ![Main-Menu](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Menu.png) 
  
 ###  Sobre 
 
 :house: Tela Sobre: :house:
 
-Na opção Sobre você poderá visualizar o conteúdo atual que está sendo exibido em sua página e editar todas as informações sobre a __Associação Novo Rumo__ :bird:
+Esta página é fundamental para apresentar o projeto a associação e as pessoas que o fazem. Pode funcionar como uma excelente oportunidade para converter visitantes em clientes.
 
-Para isto, clicar em __Páginas__ e __Politicas de privacidade__:
+Para efetuar a alteração clique no botão *+Cadastrar* que está no canto superior direito da tela. conforme imagem:
 
 ![Main-About](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-About.png)
 
-Logo de início, você terá a visão do conteúdo cadastrado na página **Sobre** e poderá alterar o contéudo. Para efetuar a alteração clique no botão *Alterar* que está no canto superior direito da tela.
 
-A tela de alteração Sobre:
 
-Nesta tela você poderá alterar o título, imagens e descrição da pagina __Sobre__. Após altereção feita, clicar no botão _Salvar_
+A tela de edição Sobre:
 
-Após cadastro será possível Alterar ou deletar o conteúdo.
+Poderá alterar o título, imagens e descrição da pagina __Sobre__. Após altereção dos campos título e descrição, para adicionar uma nova imagem clique no botão _Adicionar capa_, no qual será aberto uma janela do windwos para que você selecione uma imagem. 
+Ao termino da edição clique no botão _Salvar_ conforme imagem:
+
 
 ![Edit-About](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-About.png)
+
+
+
 
 ##  Eventos 
 
 :sunglasses: Tela de Eventos: :sunglasses:
 
+
+
+Nesta sessão, ficará armazenado todos os eventos que Associação no Rumo realizou ou irá realizar. Página de extrema importância para que os visitantes possam ter visão das atividades da Novo Rumo.
+
 ![Main-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Event.png)
 
-Nesta página, ficará armazenado todos os eventos cadastrados no banco com suas respectivas datas.
-
-Para cadastrar novos eventos, clique no botão que está no canto superior direito da tela:
 
 Tela cadastro evento:
 
-![EditMain-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Event.png)
 
-Pode ser feito alteração nos campos:
--Título
--Descrição
--Endereço
--Data do evento
+Para cadastrar novos eventos clique no botão _+Cadastrar_, onde será necessário preencher os campos título, descrição, endereço e data do evento. Todos os campos são de preenchimento obrigatório
+
+![EditMain-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Event.png)
 
 Após evento cadastrado, sera habilitado a opção de efetuar uma atualização ou deletar o evento:
 
 
-![Update-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Update-Event.png)
 
 ###  Dia-a-dia 
 
  :sun_with_face: Tela Dia-a-Dia: :sun_with_face:
 
-Nesta página, poderá ser armazenado todas as imagens referente as atividades que __Associação Novo Rumo__ :bird: realizar:
+Nesta página, poderá ser armazenado todas as imagens referente as atividades que __Associação Novo Rumo__ :bird: realizar.
+
+De extrema importância está página, pois com ela o visitante poderá ver momentos dos eventos que foram realizados, fotos do cotidiano da instuição. Criando desta forma uma relação mais transparente com o visitante do site.
 
 ![Main-Day](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Day.png)
 

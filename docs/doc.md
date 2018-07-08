@@ -21,7 +21,7 @@ Abaixo segue a lista de páginas para navegação:
  - [Politicas](#politicas)
  - [Terrmos](#termos)
  
- **Tela do mrnu principal**
+ **Tela do menu principal**
  
  ![Main-Menu](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Menu.png) 
  
@@ -46,15 +46,12 @@ Ao termino da edição clique no botão _Salvar_ conforme imagem:
 ![Edit-About](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-About.png)
 
 
-
-
 ##  Eventos 
 
 :sunglasses: Tela de Eventos: :sunglasses:
 
 
-
-Nesta sessão, ficará armazenado todos os eventos que Associação no Rumo realizou ou irá realizar. Página de extrema importância para que os visitantes possam ter visão das atividades da Novo Rumo.
+Nesta sessão, ficará armazenado todos os eventos da Associação no Rumo realizou ou irá realizar. Está págna merece atenção, pois será nela que os visitantes iram ter a visibilidades das atividades da Associação Novo Rumo.
 
 ![Main-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Event.png)
 
@@ -62,31 +59,30 @@ Nesta sessão, ficará armazenado todos os eventos que Associação no Rumo real
 Tela cadastro evento:
 
 
-Para cadastrar novos eventos clique no botão _+Cadastrar_, onde será necessário preencher os campos título, descrição, endereço e data do evento. Todos os campos são de preenchimento obrigatório
+Para cadastrar novos eventos clique no botão _+Cadastrar_, onde será necessário preencher os campos título, descrição, endereço e data do evento. Todos os campos são de preenchimento obrigatório. Após evento cadastramento do evento, aparecerá na página principal desta sessão o botão _Alterar_ e _Deletar_ o evento:
 
 ![EditMain-Event](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Event.png)
-
-Após evento cadastrado, sera habilitado a opção de efetuar uma atualização ou deletar o evento:
-
 
 
 ###  Dia-a-dia 
 
  :sun_with_face: Tela Dia-a-Dia: :sun_with_face:
 
-Nesta página, poderá ser armazenado todas as imagens referente as atividades que __Associação Novo Rumo__ :bird: realizar.
+No Dia-a-Dia, guardado todas as imagens referente as atividades que __Associação Novo Rumo__ :bird: realizar.
 
-De extrema importância está página, pois com ela o visitante poderá ver momentos dos eventos que foram realizados, fotos do cotidiano da instuição. Criando desta forma uma relação mais transparente com o visitante do site.
+De extrema importância está página, pois será nela que o visitante poderá ver os momentos dos eventos que foram realizados, fotos do cotidiano da instuição. Fazendo desta desta forma uma relação mais transparente com o visitante do site.
 
 ![Main-Day](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Day.png)
 
-Na tela de cadastro do **Dia-a-Dia**, clique no botão _Adicionar Capa_ que uma nova janela do Windows irá surgir para que você possa escolher a imagem.
+Na tela de cadastro do **Dia-a-Dia**, clique no botão _Adicionar Capa_  uma nova janela do Windows irá surgir para que você possa escolher a imagem.
 
 ![Edit-Day](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Edit-Day.png)
 
 ### Contato 
 	
 :phone: Tela Contato :phone:
+
+A Página de Contato é extremamente importante e deve ganhar a mesma atenção que a página inicial, ela será o principal meio de comunicação entre a Novo Rumo, com as empresas e até mesmo seus leitores.
 
 Na tela de contato, será colocado todas as informações de contato: E-mail, telefone, celular e endereço. Caso o usuário deseje contactar a instuição ou enviar algo.
 
@@ -111,6 +107,8 @@ Feito isto, clique em _Salvar_
 
 :lock: Tela de Politica de Privacidade:  :lock:
 
+Política de privacidade basicamente,  informa ao usuário todos os direitos, garantias, formas de uso, dados recolhidos, processamento e descarte dessas informações pessoais.
+
 Na pagina de Politicas ficará armazenado todo conteúdo de politica de privacidade do site conforme imagem:
 
 ![Main-Policy](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Policy.png)
@@ -126,7 +124,9 @@ Nesta sessão você poderá editar o título e descrição da politica quando ne
 
 :pencil2: Tela Termos de Uso: :pencil2:
 
-Nesta tela você terá visão de todo conteúdo referente ao termo de uso do site. Para efetuar sua edição clique no botão _Alterar_ que esta no canto direito superior:
+Eles esclarecem para o usuário qual é o negócio desenvolvido pelo site e informam quais as regras de conduta da plataforma eletrônica, as responsabilidades de ambas as partes, formas e condições de eventuais pagamentos, entre outras questões.
+
+Você terá visão de todo conteúdo referente ao termo de uso do site. Para efetuar sua edição clique no botão _Alterar_ que esta no canto direito superior:
 
 ![Main-Terms](https://github.com/conkerhell/novo-rumo-template/blob/master/docs/Main-Terms.png)
 

@@ -102,4 +102,7 @@ $scrollhide-nav-transition-speed: 0.5s;
     &.hidden {
         transform: translateY(-100%);
     }
+    .title-bar {
+        min-height: 4.375rem;
+    }
 }

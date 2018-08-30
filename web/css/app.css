@@ -5263,9 +5263,9 @@ nav {
   .topbar-sticky-shrink .top-bar-center {
     margin: 0 auto; }
   .topbar-sticky-shrink a {
-    text-align: center;
-    line-height: 4.25em;
-    padding: .7rem 2rem; }
+    padding: 28px; }
+  .topbar-sticky-shrink a.button {
+    margin-top: 14px; }
 
 .topbar-sticky-shrink-header {
   padding: 20rem 0;
@@ -5289,6 +5289,8 @@ div.fb-like.fb_iframe_widget {
   z-index: 1; }
   .scrollhide-nav.hidden {
     transform: translateY(-100%); }
+  .scrollhide-nav .title-bar {
+    min-height: 4.375rem; }
 
 html,
 body {

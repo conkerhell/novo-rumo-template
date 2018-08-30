@@ -69,9 +69,10 @@ nav {
         margin: 0 auto;
     }
     a {
-        text-align: center;
-        line-height: 4.25em;
-        padding: .7rem 2rem
+        padding: 28px;
+    }
+    a.button {
+        margin-top: 14px;
     }
 }
 
@@ -100,5 +101,8 @@ $scrollhide-nav-transition-speed: 0.5s;
     z-index: 1;
     &.hidden {
         transform: translateY(-100%);
+    }
+    .title-bar {
+        min-height: 4.375rem;
     }
 }

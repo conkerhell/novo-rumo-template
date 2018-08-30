@@ -34,9 +34,6 @@
                         <a href="#quem-somos">Quem somos</a>
                     </li>
                     <li>
-                        <a href="#seja-um-doador">Seja um doador</a>
-                    </li>
-                    <li>
                         <a href="#eventos">Eventos</a>
                     </li>
                     <li>
@@ -44,6 +41,9 @@
                     </li>
                     <li>
                         <a href="#contato">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#seja-um-doador" class="button hollow">Doe agora</a>
                     </li>
                 </ul>
             </div>
@@ -59,9 +59,6 @@
                         <a href="#quem-somos">Quem somos</a>
                     </li>
                     <li>
-                        <a href="#seja-um-doador">Seja um doador</a>
-                    </li>
-                    <li>
                         <a href="#eventos">Eventos</a>
                     </li>
                     <li>
@@ -69,6 +66,9 @@
                     </li>
                     <li>
                         <a href="#contato">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#seja-um-doador" class="button hollow">Doe agora</a>
                     </li>
                 </ul>
             </div>
@@ -356,13 +356,11 @@
             }
         });
 
-        var prev = 0;
         var $window = $(window);
         var nav = $('.scrollhide-nav');
         $window.on('scroll', function () {
             var scrollTop = $window.scrollTop();
-            nav.toggleClass('hidden', scrollTop > prev);
-            prev = scrollTop;
+            nav.toggleClass('hidden', scrollTop != 0);
         });
 
         function initSkroll() {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Associação Novo Rumo Atibaia</title>
     <link rel="stylesheet" href="/css/app.min.css">
+    <link rel="stylesheet" href="/css/flickity.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" async />
 </head>
@@ -201,66 +202,36 @@
             </div>
             <div class="grid-x">
                 <div class="small-12 medium-8 grid-container">
-                    <div class="orbit" role="region" aria-label="Fotos do Novo Rumo" data-orbit>
-                        <div class="orbit-wrapper">
-                            <div class="orbit-controls">
-                                <button class="orbit-previous">
-                                    <span class="show-for-sr">Voltar</span>&#9664;&#xFE0E;</button>
-                                <button class="orbit-next">
-                                    <span class="show-for-sr">Próximo</span>&#9654;&#xFE0E;</button>
-                            </div>
-                            <ul class="orbit-container">
-                                <li class="is-active orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/exercicio-ao-ar-livre.jpg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/artesanato-em-mesa.jpg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/bazar.jpg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/roda.jpg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/selfie-roda.jpg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/brigadeiro.jpg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/porta-porteira-portão.jpg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/arte.jpeg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/carnaval.jpg" alt="">
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/images/dia-a-dia/cozinhando.jpg" alt="">
-                                    </figure>
-                                </li>
-                            </ul>
+                    <div class="main-carousel" role="region" aria-label="Fotos do Novo Rumo" data-flickity='{ }'>
+                        <div class="carousel-cell"> 
+                            <img src="/images/dia-a-dia/exercicio-ao-ar-livre.jpg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/artesanato-em-mesa.jpg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/bazar.jpg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/roda.jpg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/selfie-roda.jpg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/brigadeiro.jpg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/porta-porteira-portão.jpg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/arte.jpeg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/carnaval.jpg" alt="">
+                        </div>
+                        <div class="carousel-cell">
+                            <img src="/images/dia-a-dia/cozinhando.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -366,6 +337,7 @@
     <script type="text/javascript" src="./js/foundation.min.js"></script>
     <script type="text/javascript" src="./js/skrollr.min.js" async></script>
     <script type="text/javascript" src="./js/skrollr.stylesheets.min.js" async></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" async></script>
 
     <div id="fb-root"></div>
     <script>

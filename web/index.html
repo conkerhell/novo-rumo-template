@@ -24,8 +24,13 @@
 
     <!-- RESPONSIVE MENU -->
     <div class="scrollhide-nav">
+        <div class="navigation__overlay [ fixed pin w-full h-full z-7 ] [ bg-grey-darkest ]" role="complementary"></div>
         <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-            <button class="menu-icon" type="button" data-toggle></button>
+            <div id="nav-icon4">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
         <div class="top-bar show-for-small-only" id="responsive-menu">
             <div class="top-bar-left">
@@ -203,7 +208,7 @@
             <div class="grid-x">
                 <div class="small-12 medium-8 grid-container">
                     <div class="main-carousel" role="region" aria-label="Fotos do Novo Rumo" data-flickity='{ }'>
-                        <div class="carousel-cell"> 
+                        <div class="carousel-cell">
                             <img src="/images/dia-a-dia/exercicio-ao-ar-livre.jpg" alt="">
                         </div>
                         <div class="carousel-cell">
@@ -361,6 +366,12 @@
         $window.on('scroll', function () {
             var scrollTop = $window.scrollTop();
             nav.toggleClass('hidden', scrollTop != 0);
+        });
+
+
+        $('#nav-icon4').click(function () {
+            $(this).toggleClass('open');
+            $('body').addClass('nav-expanded');
         });
 
         function initSkroll() {

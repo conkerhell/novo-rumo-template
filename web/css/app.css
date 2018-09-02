@@ -5575,3 +5575,38 @@ h2 {
   .nav-expanded .title-bar-overlay {
     -webkit-transform: scaleY(1);
     transform: scaleY(1); }
+
+.navigation__items {
+  overflow: scroll;
+  position: fixed;
+  top: 4.375rem;
+  left: 0;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: calc(100vw + 2.5rem);
+  height: calc(100% - 4.375rem);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: none;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+  -webkit-transition-duration: 350ms;
+  transition-duration: 350ms;
+  -webkit-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  opacity: 0;
+  -webkit-transform: translateY(-6.25rem);
+  transform: translateY(-6.25rem); }
+
+.nav-expanded .navigation__items {
+  display: block;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0); }

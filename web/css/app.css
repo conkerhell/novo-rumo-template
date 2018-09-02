@@ -5617,3 +5617,11 @@ h2 {
 
 .nav-animation .navigation-itens {
   display: block; }
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: flex; }

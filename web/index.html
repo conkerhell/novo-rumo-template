@@ -23,24 +23,20 @@
     </section>
 
     <!-- RESPONSIVE MENU -->
-    <div class="scrollhide-nav">
+    <div class="scrollhide-nav show-for-small-only">
         <div class="title-bar-overlay" role="complementary"></div>
-        <div class="title-bar" data-hide-for="medium">
+        <div class="title-bar">
             <div id="nav-icon4">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <div class="navigation__items">
-                <div class="navigation__items__scroller [ flex flex-col-reverse ]">
-                    <aside class="navigation__menu [ flex flex-col md:flex-row md:items-center ] [ font-america md:font-america-condensed ]">
-                        <div class="navigation__menu-item [ md:relative md:flex md:flex-row md:items-center md:mr-19 ] [ lg:mr-43 ]">
-                            <a href="#" class="[ inline-flex items-center ] [ mr-auto ]">
-                                <span>About us</span>
-                            </a>
-                        </div>
-                    </aside>
-                </div>
+            <div class="navigation-itens">
+                <a href="#quem-somos">Quem somos</a>
+                <a href="#eventos">Eventos</a>
+                <a href="#dia-a-dia">Dia-a-dia</a>
+                <a href="#contato">Contato</a>
+                <a href="#seja-um-doador">Doação</a>
             </div>
         </div>
     </div>
@@ -356,12 +352,18 @@
         var indicadorAberturaMenu = false;
         $window.on('scroll', function () {
             var scrollTop = $window.scrollTop();
-            nav.toggleClass('hidden', (scrollTop != 0 && !indicadorAberturaMenu));
+            nav.toggleClass('hidden', (scrollTop > 0 && !indicadorAberturaMenu));
         });
 
         $('#nav-icon4').click(function () {
             $(this).toggleClass('open');
-            $('body').toggleClass('nav-expanded');
+            $('body').toggleClass('nav-animation');
+            setTimeout(() => {
+                $('body').toggleClass('nav-expanded');
+                setTimeout(() => {
+                    $('body').toggleClass('nav-animation');
+                }, 200);
+            }, 200);
             indicadorAberturaMenu = !indicadorAberturaMenu;
         });
 
@@ -376,8 +378,8 @@
             skrollr.init().destroy();
         }
 
-        $(".accordion-menu li a").on("click", function () {
-            $("#responsive-menu").css({ "display": "none" });
+        $(".navigation-itens a").on("click", function () {
+            
         });
 
         (function (d, s, id) {

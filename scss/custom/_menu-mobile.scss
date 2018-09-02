@@ -128,7 +128,7 @@ $scrollhide-nav-transition-speed: 0.5s;
     }
 }
 
-.navigation__items {
+.navigation-itens {
     overflow: scroll;
     position: fixed;
     top: 4.375rem;
@@ -158,9 +158,18 @@ $scrollhide-nav-transition-speed: 0.5s;
     transform: translateY(-6.25rem);
 }
 
-.nav-expanded .navigation__items {
+.navigation-itens a {
+    text-transform: capitalize;
+    font-size: 2.75rem;
+}
+
+.nav-expanded .navigation-itens {
     display: block;
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
+}
+
+.nav-animation .navigation-itens {
+    display: block;
 }

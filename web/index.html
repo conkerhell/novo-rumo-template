@@ -371,6 +371,7 @@
         });
 
         $(".navigation-itens a").on("click", function () {
+            $('#nav-icon4').toggleClass('open');
             $(body).toggleClass('nav-expanded');
             $(nav).addClass('hidden');
             indicadorAberturaMenu = !indicadorAberturaMenu;

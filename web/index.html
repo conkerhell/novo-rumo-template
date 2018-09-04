@@ -357,15 +357,22 @@
             nav.toggleClass('hidden', (scrollTop > 0 && !indicadorAberturaMenu));
         });
 
+        var body = $('body');
         $('#nav-icon4').click(function () {
             $(this).toggleClass('open');
-            $('body').toggleClass('nav-animation');
+            $(body).toggleClass('nav-animation');
             setTimeout(() => {
-                $('body').toggleClass('nav-expanded');
+                $(body).toggleClass('nav-expanded');
                 setTimeout(() => {
-                    $('body').toggleClass('nav-animation');
+                    $(body).toggleClass('nav-animation');
                 }, 200);
             }, 200);
+            indicadorAberturaMenu = !indicadorAberturaMenu;
+        });
+
+        $(".navigation-itens a").on("click", function () {
+            $(body).toggleClass('nav-expanded');
+            $(nav).addClass('hidden');
             indicadorAberturaMenu = !indicadorAberturaMenu;
         });
 
@@ -379,10 +386,6 @@
         function destroySkroll() {
             skrollr.init().destroy();
         }
-
-        $(".navigation-itens a").on("click", function () {
-            
-        });
 
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];

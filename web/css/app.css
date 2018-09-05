@@ -5462,10 +5462,6 @@ h2 {
   height: 400px;
   margin-right: 10px; }
 
-.flickity-button-icon {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg); }
-
 .scrollhide-nav {
   position: fixed;
   right: 0;

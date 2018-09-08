@@ -5313,8 +5313,7 @@ h2 {
   color: #fff; }
 
 .white-content {
-  padding: 120px 0px 190px 0;
-  background: url(/images/sparkles-white.png); }
+  padding: 120px 0px 190px 0; }
   .white-content h1 {
     margin-bottom: 10rem;
     color: #ffae00;
@@ -5323,17 +5322,16 @@ h2 {
   .white-content h2,
   .white-content h3,
   .white-content h4 {
-    color: #ffae00; }
+    color: #A62E3C; }
   .white-content h4 {
     padding-top: 15px;
     line-height: 31px; }
   .white-content p {
-    color: #ffae00;
+    color: #0a0a0a;
     font-size: 18px;
     line-height: 25px; }
 
-.pink-content,
-.pink-gradient-content {
+.pink-content {
   background-color: #ffae00;
   background-position: top;
   background-repeat: repeat;
@@ -5341,8 +5339,7 @@ h2 {
   -webkit-perspective: 1000;
   padding: 120px 0px 190px 0;
   color: #fff; }
-  .pink-content .title,
-  .pink-gradient-content .title {
+  .pink-content .title {
     color: #A62E3C; }
 
 .stripe {
@@ -5350,9 +5347,6 @@ h2 {
 
 .pink-content {
   background-image: url(/images/sparkles.gif); }
-
-.pink-gradient-content {
-  background: url(/images/sparkles.gif), url(/images/bg-top-v2.png); }
 
 .no-bottom-padding {
   padding: 90px 0px 120px 0; }
@@ -5375,7 +5369,7 @@ h2 {
 
 .table,
 .table a {
-  color: #ffae00; }
+  color: #0a0a0a; }
 
 .table a:hover {
   text-decoration: underline; }

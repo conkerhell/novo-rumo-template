@@ -41,7 +41,6 @@ h2 {
 
 .white-content {
     padding: 120px 0px 190px 0;
-    background: url(/images/sparkles-white.png);
     h1 {
         margin-bottom: 10rem;
         color: $secondary-color;
@@ -51,21 +50,20 @@ h2 {
     h2,
     h3,
     h4 {
-        color: $secondary-color;
+        color: $primary-color;
     }
     h4 {
         padding-top: 15px;
         line-height: 31px;
     }
     p {
-        color: $secondary-color;
+        color: $black;
         font-size: 18px;
         line-height: 25px;
     }
 }
 
-.pink-content,
-.pink-gradient-content {
+.pink-content {
     background-color: $secondary-color;
     background-position: top;
     background-repeat: repeat;
@@ -84,10 +82,6 @@ h2 {
 
 .pink-content {
     background-image: url(/images/sparkles.gif);
-}
-
-.pink-gradient-content {
-    background: url(/images/sparkles.gif), url(/images/bg-top-v2.png);
 }
 
 .no-bottom-padding {
@@ -117,7 +111,7 @@ h2 {
 
 .table,
 .table a {
-    color: $secondary-color;
+    color: $black;
 }
 
 .table a:hover {

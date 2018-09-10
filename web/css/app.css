@@ -5331,6 +5331,9 @@ h2 {
     font-size: 18px;
     line-height: 25px; }
 
+.grey-content {
+  background-color: #e6e6e6; }
+
 .pink-content {
   background-color: #ffae00;
   background-position: top;
@@ -5455,6 +5458,24 @@ h2 {
   width: 75%;
   height: 400px;
   margin-right: 10px; }
+
+.flickity-button {
+  background: none; }
+
+.flickity-button:hover {
+  background: none; }
+
+.flickity-prev-next-button {
+  top: 100%;
+  -webkit-transform: none;
+  transform: none; }
+
+.flickity-prev-next-button.previous {
+  left: auto;
+  right: 50%; }
+
+.flickity-prev-next-button.next {
+  right: 45%; }
 
 .scrollhide-nav {
   position: fixed;

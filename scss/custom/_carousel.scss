@@ -3,3 +3,26 @@
     height: 400px;
     margin-right: 10px;
 }
+
+.flickity-button {
+    background: none;
+}
+
+.flickity-button:hover {
+    background: none;
+}
+
+.flickity-prev-next-button {
+    top: 100%;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.flickity-prev-next-button.previous {
+    left: auto;
+    right: 50%;
+}
+
+.flickity-prev-next-button.next {
+    right: 45%;
+}

@@ -5304,8 +5304,8 @@ h2 {
   line-height: 0.8em;
   letter-spacing: 5px; }
 
-.blue-content {
-  padding: 120px 0px 190px 0;
+.red-content {
+  padding: 90px 0px 190px 0;
   background: url(/images/sparkles.gif);
   background-position: top;
   background-repeat: repeat;
@@ -5420,7 +5420,7 @@ h2 {
   stroke: #3adb76;
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
-  animation: dash 1.5s ease-in-out forwards, color 6s ease-in-out infinite;
+  animation: dash 1.5s ease-in-out forwards, color 6s ease-in-out infinite;
   stroke-linecap: round; }
 
 @keyframes dash {

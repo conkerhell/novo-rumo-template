@@ -5454,11 +5454,6 @@ h2 {
   width: 40px;
   height: 40px; }
 
-.carousel-cell {
-  width: 75%;
-  max-height: 400px;
-  margin-right: 10px; }
-
 .flickity-button {
   background: none; }
 
@@ -5476,6 +5471,26 @@ h2 {
 
 .flickity-prev-next-button.next {
   right: 45%; }
+
+.main-carousel-cell,
+.carousel-cell {
+  max-height: 400px;
+  margin-right: 10px; }
+
+@media screen and (max-width: 39.9375em) {
+  .main-carousel-cell,
+  .carousel-cell {
+    width: 75%; } }
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .main-carousel-cell,
+  .carousel-cell {
+    width: calc( ( 100% - 20px ) / 2); } }
+
+@media print, screen and (min-width: 64em) {
+  .main-carousel-cell,
+  .carousel-cell {
+    width: calc( ( 100% - 20px ) / 3); } }
 
 .scrollhide-nav {
   position: fixed;

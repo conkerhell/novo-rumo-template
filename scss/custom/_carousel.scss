@@ -22,10 +22,14 @@
 }
 
 .main-carousel-cell, 
-    .carousel-cell {
-        max-height: 400px;
-        margin-right: 10px; 
+.carousel-cell {
+    max-height: 400px;
+    margin-right: 10px; 
+    p, span,
+    p:hover, span:hover {
+        color:white;
     }
+}
 
 @include breakpoint(small only) {
     .main-carousel-cell, 

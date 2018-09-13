@@ -79,7 +79,14 @@
                         <div class="main-carousel" role="region">
                             <div class="main-carousel-cell">
                                 <a data-toggle="open-text">
-                                    <img src="http://via.placeholder.com/370x400">
+                                    <div class="column small-12">
+                                        <p>
+                                            <img src="http://via.placeholder.com/370x400">
+                                        </p>
+                                    </div>
+                                    <div class="column small-12">
+                                        <p>Título</p>
+                                    </div>
                                 </a>
                             </div>
                             <div class="main-carousel-cell">
@@ -366,6 +373,7 @@
 
         $('.pictures-carousel').flickity({
             draggable: false,
+            groupCells: true,
             pageDots: false,
             arrowShape: 'M92.5,42.5H25.6L37.8,30.3A7.5,7.5,0,1,0,27.2,19.7l-25,25a7.5,7.5,0,0,0,0,10.6l25,25a7.5,7.5,0,0,0,10.6,0,7.5,7.5,0,0,0,0-10.6L25.6,57.5H92.5a7.5,7.5,0,0,0,0-15Z'
         });

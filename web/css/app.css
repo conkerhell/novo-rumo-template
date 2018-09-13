@@ -5476,6 +5476,13 @@ h2 {
 .carousel-cell {
   max-height: 400px;
   margin-right: 10px; }
+  .main-carousel-cell p, .main-carousel-cell span,
+  .main-carousel-cell p:hover, .main-carousel-cell span:hover,
+  .carousel-cell p,
+  .carousel-cell span,
+  .carousel-cell p:hover,
+  .carousel-cell span:hover {
+    color: white; }
 
 @media screen and (max-width: 39.9375em) {
   .main-carousel-cell,

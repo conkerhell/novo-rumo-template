@@ -12,9 +12,6 @@
 </head>
 
 <body>
-    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like"
-        data-size="small" data-show-faces="false" data-share="false"></div>
-
     <!-- HEADER -->
     <section id="header">
         <div class="spirit" data-0p="display:block; opacity:1;" data-100p="display:none; opacity:0;">
@@ -389,14 +386,6 @@
         function destroySkroll() {
             skrollr.init().destroy();
         }
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.12&appId=269841363195323&autoLogAppEvents=1';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
 
         $(document).ready(function () {
             $(function () {

@@ -5420,7 +5420,7 @@ h2 {
   stroke: #3adb76;
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
-  animation: dash 1.5s ease-in-out forwards, color 6s ease-in-out infinite;
+  animation: dash 1.5s ease-in-out forwards, color 6s ease-in-out infinite;
   stroke-linecap: round; }
 
 @keyframes dash {
@@ -5474,7 +5474,6 @@ h2 {
 
 .main-carousel-cell,
 .carousel-cell {
-  max-height: 400px;
   margin-right: 10px; }
   .main-carousel-cell p, .main-carousel-cell span,
   .main-carousel-cell p:hover, .main-carousel-cell span:hover,

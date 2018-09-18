@@ -99,33 +99,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="reveal large" id="open-text" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
-                    <div class="grid-x">
-                        <div class="small-12 medium-3 cell">
-                            <h4>TV Cultura</h4>
-                        </div>
-                        <div class="small-12 medium-9 cell">
-                            <p> Associação Novo Rumo Atibaia é uma instituição de assistência social sem fins lucrativos fundada
-                                em xxxx, direcionado a jovens e adultos com deficiência intelectual, que atende de segunta
-                                a sexta-feira das xx ás xx na região de Atibia. </p>
-                            <p>
-                                Proposta da Associação Novo Rumo é fazer que todos ganhem a percepção de seu potencial através de atividades que são dadas
-                                no dia a dia. Não é dado foco na deficiência, monstrando que todos nós temos dificuldades
-                                e que todos nós podemos superá-las, com ajuda de amigos ou de algum profissional que esta
-                                acompanhando as atividades do dia.
-                            </p>
-
-                            <p>
-                                O nosso maior ganho e foco esta na melhora de qualidade de vida de cada aluno que recebos, tendo como objetivo a inserção
-                                desses jovens e adultos dentro da sociedade, promovendo a inclusão social. Para chegarmos
-                                neste objetivo com sucesso, tarbalhamos com nossos alunos todos os dias em atividades específicas.
-                            </p>
-                        </div>
-                    </div>
-                    <button class="close-button" data-close aria-label="Close reveal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
             </div>
         </div>
         <div class="white-content" id="seja-um-doador">
@@ -182,7 +155,9 @@
                 <div class="small-12">
                     <div class="pictures-carousel" role="region" aria-label="Fotos do Novo Rumo" data-flickity='{ }'>
                         <div class="carousel-cell">
-                            <img src="/images/dia-a-dia/exercicio-ao-ar-livre.jpg" alt="">
+                            <a data-toggle="open-text">
+                                <img src="/images/dia-a-dia/exercicio-ao-ar-livre.jpg" alt="">
+                            </a>
                         </div>
                         <div class="carousel-cell">
                             <img src="/images/dia-a-dia/artesanato-em-mesa.jpg" alt="">
@@ -310,6 +285,34 @@
         </div>
     </div>
 
+    <div class="reveal large" id="open-text" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+        <div class="grid-x">
+            <div class="small-12 medium-3 cell">
+                <h4>TV Cultura</h4>
+            </div>
+            <div class="small-12 medium-9 cell">
+                <p> Associação Novo Rumo Atibaia é uma instituição de assistência social sem fins lucrativos fundada em xxxx,
+                    direcionado a jovens e adultos com deficiência intelectual, que atende de segunta a sexta-feira das xx
+                    ás xx na região de Atibia. </p>
+                <p>
+                    Proposta da Associação Novo Rumo é fazer que todos ganhem a percepção de seu potencial através de atividades que são dadas
+                    no dia a dia. Não é dado foco na deficiência, monstrando que todos nós temos dificuldades e que todos
+                    nós podemos superá-las, com ajuda de amigos ou de algum profissional que esta acompanhando as atividades
+                    do dia.
+                </p>
+
+                <p>
+                    O nosso maior ganho e foco esta na melhora de qualidade de vida de cada aluno que recebos, tendo como objetivo a inserção
+                    desses jovens e adultos dentro da sociedade, promovendo a inclusão social. Para chegarmos neste objetivo
+                    com sucesso, tarbalhamos com nossos alunos todos os dias em atividades específicas.
+                </p>
+            </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/foundation.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -336,12 +339,14 @@
         var $window = $(window);
         var nav = $('.scrollhide-nav');
         var indicadorAberturaMenu = false;
+        var body = $('body');
         $window.on('scroll', function () {
             var scrollTop = $window.scrollTop();
-            nav.toggleClass('hidden', (scrollTop > 0 && !indicadorAberturaMenu));
+            if (!body.hasClass('is-reveal-open')) {
+                nav.toggleClass('hidden', (scrollTop > 0 && !indicadorAberturaMenu));
+            }
         });
 
-        var body = $('body');
         $('#nav-icon4').click(function () {
             $(this).toggleClass('open');
             $(body).toggleClass('nav-animation');
@@ -374,7 +379,6 @@
             pageDots: false,
             arrowShape: 'M92.5,42.5H25.6L37.8,30.3A7.5,7.5,0,1,0,27.2,19.7l-25,25a7.5,7.5,0,0,0,0,10.6l25,25a7.5,7.5,0,0,0,10.6,0,7.5,7.5,0,0,0,0-10.6L25.6,57.5H92.5a7.5,7.5,0,0,0,0-15Z'
         });
-
 
         function initSkroll() {
             skrollr.init({

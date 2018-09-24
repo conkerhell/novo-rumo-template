@@ -5450,16 +5450,17 @@ h2 {
 .flickity-prev-next-button.next {
   right: 45%; }
 
-.main-carousel-cell,
-.carousel-cell {
+.main-carousel-cell {
   margin-right: 10px; }
   .main-carousel-cell p, .main-carousel-cell span,
-  .main-carousel-cell p:hover, .main-carousel-cell span:hover,
-  .carousel-cell p,
-  .carousel-cell span,
-  .carousel-cell p:hover,
-  .carousel-cell span:hover {
+  .main-carousel-cell p:hover, .main-carousel-cell span:hover {
     color: white; }
+
+.carousel-cell {
+  margin-right: 10px; }
+  .carousel-cell p, .carousel-cell span,
+  .carousel-cell p:hover, .carousel-cell span:hover {
+    color: #0a0a0a; }
 
 @media screen and (max-width: 39.9375em) {
   .main-carousel-cell,

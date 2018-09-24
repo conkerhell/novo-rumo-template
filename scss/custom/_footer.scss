@@ -1,76 +1,47 @@
+.line {
+    border-top: 1px solid $medium-gray;
+}
+
 .footer {
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
     padding: 1rem 0;
     align-items: center;
-    background: url(/images/sparkles.gif);
     background-position: top;
     background-repeat: repeat;
-    background-color: $secondary-color;
-    color: #fff;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    background-color: #fff;
+    color: $black;
+    padding: 40px 0px 60px 0;
     h6 {
         text-transform: uppercase;
         font-weight: 700;
         color: $primary-color;
     }
-    p {
-        margin-bottom: 0;
-    }
-    .info {
-        padding-top: 45px;
-    }
-    a {
-        color: $white;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
 }
 
-.facebook {
-    position: relative;
-    top: 6px;
-    left: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
-    img {
-        position: absolute;
-        top: 7px;
-        left: 10px;
-    }
-    &:hover {
-        background-color: #3b5998
-    }
+.footer__social .icon-facebook {
+    width: 1.125rem;
+    height: 1.4375rem;
 }
 
-.email {
-    position: relative;
-    top: 6px;
-    left: 15px;
-    background-color: rgba(0, 0, 0, 0.1);
-    img {
-        position: absolute;
-        top: 8px;
-        left: 3px;
-    }
-    &:hover {
-        background-color: #00b9c1;
-    }
+.footer__social .icon {
+    width: 1.375rem;
+    height: 1.375rem;
+    fill: #8e8e8e;
 }
 
-.social-icon {
-    height: 30px;
-    width: 30px;
-    -webkit-transition-duration: 0.5s;
-    -webkit-transform: rotate(45deg);
-    display: inline-block;
-    padding-left: 0px;
-    vertical-align: top;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    img {
-        -webkit-transform: rotate(-45deg);
-    }
+.icon svg {
+    width: inherit;
+    height: inherit;
+    fill: inherit;
+    -webkit-transition-property: fill;
+    transition-property: fill;
+    -webkit-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-timing-function: cubic-bezier(.455, .03, .515, .955);
+    transition-timing-function: cubic-bezier(.455, .03, .515, .955);
+}
+
+.footer__social__link:hover .icon {
+    fill: $primary-color;
 }

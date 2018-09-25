@@ -17,6 +17,12 @@
         font-weight: 700;
         color: $primary-color;
     }
+    a {
+        color: $black;
+    }
+    a:hover {
+        color: $primary-color;
+    }
 }
 
 .footer__social .icon {

@@ -3398,6 +3398,20 @@ h6, .h6 {
   h1, .h1 {
     font-size: 3rem; }
   h2, .h2 {
+    font-size: 5.75rem; }
+  h3, .h3 {
+    font-size: 3.75rem; }
+  h4, .h4 {
+    font-size: 1.75rem; }
+  h5, .h5 {
+    font-size: 1.25rem; }
+  h6, .h6 {
+    font-size: 1rem; } }
+
+@media print, screen and (min-width: 64em) {
+  h1, .h1 {
+    font-size: 3rem; }
+  h2, .h2 {
     font-size: 6.75rem; }
   h3, .h3 {
     font-size: 4.75rem; }

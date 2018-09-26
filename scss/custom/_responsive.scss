@@ -5,12 +5,12 @@
     }
     .footer {
         text-align: center;
+        .menu {
+                justify-content: center;
+        }
     }
     .responsive-bottom-space {
         padding-bottom: 50px;
-    }
-    .footer .info {
-        padding-top: 0px;
     }
     .stripe {
         padding:0;

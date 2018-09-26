@@ -28,18 +28,18 @@
     }
 }
 
-.footer__social .icon {
+.footer-social .icon {
     width: 1.375rem;
     height: 1.375rem;
     fill: #8e8e8e;
 }
 
-.footer__social .icon-facebook {
+.footer-social .icon-facebook {
     width: 1.125rem;
     height: 1.4375rem;
 }
 
-.footer__social .icon-instagram {
+.footer-social .icon-instagram {
     width: 1.175rem;
     height: 1.375rem;
 }
@@ -56,6 +56,6 @@
     transition-timing-function: cubic-bezier(.455, .03, .515, .955);
 }
 
-.footer__social__link:hover .icon {
+.footer-social-link:hover .icon {
     fill: $primary-color;
 }

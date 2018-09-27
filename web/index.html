@@ -74,28 +74,51 @@
                 <div class="grid-x">
                     <div class="small-12">
                         <div class="main-carousel" role="region">
-                            <div class="main-carousel-cell">
-                                <a data-toggle="open-text">
-                                    <div class="column small-12">
+                            <a data-toggle="sobre-nos-modal" class="main-carousel-cell">
+                                <div class="column small-12">
+                                    <p>
+                                        <img src="http://via.placeholder.com/370x400">
+                                    </p>
+                                </div>
+                                <div class="column small-12">
+                                    <p>Título</p>
+                                </div>
+                            </a>
+                            <div class="reveal large" id="sobre-nos-modal" data-reveal data-close-on-click="true">
+                                <div class="grid-x">
+                                    <div class="small-12 medium-3 cell">
+                                        <h4>TV Cultura</h4>
+                                    </div>
+                                    <div class="small-12 medium-9 cell">
+                                        <p> Associação Novo Rumo Atibaia é uma instituição de assistência social sem fins lucrativos
+                                            fundada em xxxx, direcionado a jovens e adultos com deficiência intelectual,
+                                            que atende de segunta a sexta-feira das xx ás xx na região de Atibia. </p>
                                         <p>
-                                            <img src="http://via.placeholder.com/370x400">
+                                            Proposta da Associação Novo Rumo é fazer que todos ganhem a percepção de seu potencial através de atividades que são dadas
+                                            no dia a dia. Não é dado foco na deficiência, monstrando que todos nós temos
+                                            dificuldades e que todos nós podemos superá-las, com ajuda de amigos ou de algum
+                                            profissional que esta acompanhando as atividades do dia.
+                                        </p>
+
+                                        <p>
+                                            O nosso maior ganho e foco esta na melhora de qualidade de vida de cada aluno que recebos, tendo como objetivo a inserção
+                                            desses jovens e adultos dentro da sociedade, promovendo a inclusão social. Para
+                                            chegarmos neste objetivo com sucesso, tarbalhamos com nossos alunos todos os
+                                            dias em atividades específicas.
                                         </p>
                                     </div>
-                                    <div class="column small-12">
-                                        <p>Título</p>
-                                    </div>
-                                </a>
+                                </div>
+                                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                            <div class="main-carousel-cell">
-                                <a data-toggle="open-text">
-                                    <img src="http://via.placeholder.com/370x400">
-                                </a>
-                            </div>
-                            <div class="main-carousel-cell">
-                                <a data-toggle="open-text">
-                                    <img src="http://via.placeholder.com/370x400">
-                                </a>
-                            </div>
+
+                            <a data-toggle="open-text" class="main-carousel-cell">
+                                <img src="http://via.placeholder.com/370x400">
+                            </a>
+                            <a data-toggle="open-text" class="main-carousel-cell">
+                                <img src="http://via.placeholder.com/370x400">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -424,18 +447,30 @@
             indicadorAberturaMenu = !indicadorAberturaMenu;
         });
 
-        $('.main-carousel').flickity({
-            draggable: false,
+        var $mainCarousel = $('.main-carousel').flickity({
             groupCells: true,
             pageDots: false,
             arrowShape: 'M92.5,42.5H25.6L37.8,30.3A7.5,7.5,0,1,0,27.2,19.7l-25,25a7.5,7.5,0,0,0,0,10.6l25,25a7.5,7.5,0,0,0,10.6,0,7.5,7.5,0,0,0,0-10.6L25.6,57.5H92.5a7.5,7.5,0,0,0,0-15Z'
         });
+        var flickity = $mainCarousel.data('flickity');
 
-        $('.pictures-carousel').flickity({
-            draggable: false,
+        var $picturesCarousel = $('.pictures-carousel').flickity({
             groupCells: true,
             pageDots: false,
             arrowShape: 'M92.5,42.5H25.6L37.8,30.3A7.5,7.5,0,1,0,27.2,19.7l-25,25a7.5,7.5,0,0,0,0,10.6l25,25a7.5,7.5,0,0,0,10.6,0,7.5,7.5,0,0,0,0-10.6L25.6,57.5H92.5a7.5,7.5,0,0,0,0-15Z'
+        });
+        var picturesFlickity = $picturesCarousel.data('flickity');
+
+        $mainCarousel.on('click', 'a', function (event) {
+            if (event.currentTarget != flickity.selectedElement) {
+                $('#'+ event.currentTarget.dataset.toggle).foundation('toggle');
+            }
+        });
+
+        $picturesCarousel.on('click', 'a', function (event) {
+            if (event.currentTarget != picturesFlickity.selectedElement) {
+                $('#'+ event.currentTarget.dataset.toggle).foundation('toggle');
+            }
         });
 
         function initSkroll() {

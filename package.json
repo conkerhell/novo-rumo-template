@@ -17,7 +17,7 @@
     "gulp-uglify": "3.0.0"
   },
   "dependencies": {
-    "foundation-sites": "6.4.2",
+    "foundation-sites": "6.5.0-rc.3",
     "skrollr": "0.6.26",
     "skrollr-stylesheets": "^1.0.0"
   }

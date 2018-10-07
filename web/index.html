@@ -102,7 +102,7 @@
                             <div class="reveal large" id="modal-2" data-reveal data-close-on-click="true">
                                 <div class="grid-x">
                                     <div class="small-12 medium-3 cell">
-                                        <h4>TV Cultura</h4>
+                                        <h4>Modal 2</h4>
                                     </div>
                                     <div class="small-12 medium-9 cell">
                                         <p> Lorem ipsum dolores non fat siamec.</p>
@@ -118,7 +118,7 @@
                             <div class="reveal large" id="modal-3" data-reveal data-close-on-click="true">
                                 <div class="grid-x">
                                     <div class="small-12 medium-3 cell">
-                                        <h4>TV Cultura</h4>
+                                        <h4>Modal 3</h4>
                                     </div>
                                     <div class="small-12 medium-9 cell">
                                         <p> Lorem ipsum dolores non fat siamec.</p>
@@ -134,7 +134,7 @@
                             <div class="reveal large" id="modal-4" data-reveal data-close-on-click="true">
                                 <div class="grid-x">
                                     <div class="small-12 medium-3 cell">
-                                        <h4>TV Cultura</h4>
+                                        <h4>Modal 4</h4>
                                     </div>
                                     <div class="small-12 medium-9 cell">
                                         <p> Lorem ipsum dolores non fat siamec.</p>
@@ -495,13 +495,13 @@
         var picturesFlickity = $picturesCarousel.data('flickity');
 
         $mainCarousel.on('click', 'a', function (event) {
-            if (event.currentTarget != flickity.selectedElement) {
+            if (flickity.isAnimating === true) {
                 $('#' + event.currentTarget.dataset.toggle).foundation('toggle');
             }
         });
 
         $picturesCarousel.on('click', 'a', function (event) {
-            if (event.currentTarget != picturesFlickity.selectedElement) {
+            if (picturesFlickity.isAnimating === true) {
                 $('#' + event.currentTarget.dataset.toggle).foundation('toggle');
             }
         });
